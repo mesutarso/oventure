@@ -105,7 +105,7 @@ export const InfiniteMovingCards = ({
                                 alt={item.title}
                                 width={150}
                                 height={100}
-                                className=""
+                                className="mix-blend-lighten"
                             />
 
 
