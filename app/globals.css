@@ -2,32 +2,98 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+
+
+
+html {
+    scroll-behavior: smooth;
+
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+
+
+ul {
+    margin: 0 !important
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+
+.bg-gradient {
+    background: linear-gradient(90deg, #3CB1F4 0%, #034172 0%, #3CB1F4 100%);
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+button.bg-gradient:hover {
+    background: #ffffff !important;
+}
+
+.text-gradient {
+    background: linear-gradient(90deg, #071837 0%, #1D4293 0%, #071837 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.bg-hero {
+    background: linear-gradient(90.1deg, rgba(7, 24, 55, 0.95) 0.95%, rgba(91, 101, 120, 0.56901) 51.16%, rgba(217, 217, 217, 0) 77.31%, rgba(217, 217, 217, 0) 77.31%);
+
+}
+
+.section {
+    @apply py-10 lg:py-20 px-5
+}
+
+.blur-post {
+    background: #07183775;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    inset: 0;
+    z-index: 10
+}
+
+
+.bg-hero {
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #061c43 0%, #3daef2 100%);
+}
+
+.glass {
+    background: rgba(255, 255, 255, 0.43);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12.2px);
+    -webkit-backdrop-filter: blur(12.2px);
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+
+.glass-global {
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12.2px);
+    -webkit-backdrop-filter: blur(12.2px);
+}
+
+
+
+.partners-slider {
+    width: 2179px;
+    margin: auto;
+    overflow: visible;
+}
+
+
+
+
+.no-visible-scrollbar {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    -webkit-overflow-scrolling: touch;
+}
+
+.no-visible-scrollbar::-webkit-scrollbar {
+    display: none;
 }
