@@ -1,6 +1,7 @@
 import Video from "next-video";
 import Partenaires from "./partenaires";
 import Image from "next/image";
+import { Button } from "../ui/button";
 
 function Hero() {
   return (
@@ -31,12 +32,13 @@ function Hero() {
           Investissements durables en RDC et compensation carbone dans les pays
           industrialisés.
         </p>
-        <a
-          className="inline-flex items-center justify-center whitespace-nowrap transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 border shadow-sm h-10 rounded-md px-4 py-6 text-xs font-bold uppercase bg-transparent border-main hover:bg-secondary hover:text-white hover:border-none"
-          href="/#"
+        <Button
+          className={
+            "focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 border shadow-sm h-10 rounded-md px-4 py-6 text-xs font-bold uppercase bg-transparent border-main hover:bg-secondary hover:text-white hover:border-none"
+          }
         >
           Découvrir Maintenant
-        </a>
+        </Button>
       </div>
     </div>
   );
