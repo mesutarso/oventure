@@ -24,7 +24,7 @@ export default function NavBar() {
         ))}
           <NavigationMenuItem>
             <NavigationMenuLink href="/contact">
-              <Button className={'bg-primary border-0'}>
+              <Button className={'bg-primary border-0 text-white'}>
                   NOUS CONTACTEZ
               </Button>
             </NavigationMenuLink>
