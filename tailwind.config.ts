@@ -42,7 +42,7 @@ const config = {
     },
     colors: {
       primary: "#00B7E8",
-      secondary: "#5522CC",
+      secondary: "#21dfb7",
       tertiary: "#1E264D",
       yellow: "#FFD100",
       blueDark: "#005BDA",
@@ -53,6 +53,7 @@ const config = {
       violet: "#5D00BA",
       dark: "#2c211c",
       white: "#FFFFFF",
+      black: "#000000"
     },
   },
   plugins: [require("tailwindcss-animate")],

@@ -37,7 +37,7 @@ export default function Header() {
   return (
     <motion.header
       className={cn(`fixed w-full z-40 top-0  transition-all  duration-300 ease-in-out ${isHomeOrEvents() ? 'bg-transparent' : 'bg-white'} ${
-          isSticky ? "bg-white shadow-md isSticky" : `${isHomeOrEvents() ? 'text-white' : 'text-black'}`
+          isSticky ? "bg-white shadow-md isSticky text-black" : `${isHomeOrEvents() ? 'text-black' : 'text-white'}`
       }`)}
       variants={variants}
       initial="hidden"
