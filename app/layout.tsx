@@ -1,14 +1,17 @@
 import type { Metadata } from "next";
-import { Inter, IBM_Plex_Sans } from "next/font/google";
+import { Inter, IBM_Plex_Sans, Poppins } from "next/font/google";
 import "./globals.css";
 import AosProvider from "@/providers/aos";
 import Header from "@/components/header";
+import Footer from "@/components/footer";
 
 
 const inter = Inter({ subsets: ["latin"] });
-const ibmPlexSans = IBM_Plex_Sans({
-  subsets: ["latin"],
-  weight: ['400', '700'],
+const poppins = Poppins({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-poppins',
+  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900']
 });
 
 export const metadata: Metadata = {
@@ -24,9 +27,11 @@ export default function RootLayout({
   return (
     <html lang="fr">
       <AosProvider>
-        <body className={ibmPlexSans.className}>
+        <body className={poppins.className}>
           <Header />
-          {children}</body>
+          {children}
+          <Footer />
+          </body>
       </AosProvider>
 
     </html>
