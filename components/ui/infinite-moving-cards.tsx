@@ -98,7 +98,7 @@ export const InfiniteMovingCards = ({
 
                         key={idx}
                     >
-                        <div className="flex items-center justify-center">
+                        <div className="flex  bg-transparent items-center justify-center">
 
                             <Image
                                 src={item.image}
