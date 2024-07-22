@@ -16,7 +16,7 @@ function Work() {
             centaine d’entreprises aux différentes étapes de leur transition :
             réalisation d’un Bilan Carbone, définition d’une Stratégie Climat,
             lancement d’offres bas-carbone, engagement des parties prenantes.
-            Notre équipe dispose d'expertise sur les secteurs où l’enjeu climat
+            Notre équipe dispose d&apos;expertise sur les secteurs où l’enjeu climat
             est fortement matériel : industrie, agro-agri, fabrication,
             construction, retail, etc.
           </p>
@@ -52,7 +52,7 @@ function Work() {
             centaine d’entreprises aux différentes étapes de leur transition :
             réalisation d’un Bilan Carbone, définition d’une Stratégie Climat,
             lancement d’offres bas-carbone, engagement des parties prenantes.
-            Notre équipe dispose d'expertise sur les secteurs où l’enjeu climat
+            Notre équipe dispose d&apos;expertise sur les secteurs où l’enjeu climat
             est fortement matériel : industrie, agro-agri, fabrication,
             construction, retail, etc.
           </p>
