@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import Video from "next-video";
+import VIDEOFILE from "@/videos/forest.mp4";
 
 function VideoHome() {
   return (
@@ -8,9 +9,11 @@ function VideoHome() {
       <div className="rounded-xl overflow-hidden">
         <div className="rounded-xl">
           <Video
-            src={"/videos/forest.mp4"}
+            src={VIDEOFILE}
             loop
             muted
+            controls={false}
+            autoPlay
             playsInline
             className="w-full h-full"
           />
