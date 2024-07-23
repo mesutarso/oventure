@@ -5,7 +5,7 @@ import VIDEO from '@/videos/forest.mp4';
 
 function Hero() {
     return (
-        <div className={'bg-secondary min-h-[70vh] text-white'}>
+        <div className={'bg-gradient-to-tl from-blueDark to-blueLight min-h-[70vh] text-white'}>
             <div className="container section grid grid-cols-1 md:grid-cols-2 min-h-[80vh] items-center gap-12">
                 <div className={'w-full  rounded-xl'}>
                     <Video
