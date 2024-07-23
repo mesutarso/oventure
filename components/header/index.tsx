@@ -14,11 +14,7 @@ export default function Header() {
     visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
   };
 
-  const pathname = usePathname()
 
-  const isHomeOrEvents = useCallback(() => {
-    return pathname === "/" || pathname === "/evenements" || pathname === "/actualites";
-  }, [pathname]);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -36,16 +32,15 @@ export default function Header() {
 
   return (
     <motion.header
-      className={cn(`fixed w-full z-40 top-0  transition-all  duration-300 ease-in-out ${isHomeOrEvents() ? 'bg-transparent' : 'bg-white'} ${
-          isSticky ? "bg-white shadow-md isSticky text-black" : `${isHomeOrEvents() ? 'text-black' : 'text-white'}`
-      }`)}
+      className={cn(`fixed w-full z-40 top-0  transition-all  duration-300 ease-in-out ${
+          isSticky ? "bg-white shadow-md isSticky text-black"  : 'text-white'}`)}
       variants={variants}
       initial="hidden"
       animate="visible"
     >
       <div className="container flex items-center justify-between">
-        <Logo />
-        <NavBar />
+        <Logo isSticky={isSticky} />
+        <NavBar isSticky={isSticky}  />
         <div className="lg:hidden">
           <Drawer />
         </div>

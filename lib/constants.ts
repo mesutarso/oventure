@@ -8,23 +8,44 @@ export const MENU: MenuItem[] = [
   {
     label: "NOS OFFRES",
     href: "/#",
+    subMenu : [
+
+      {
+        label: "Oventure consulting",
+        href: "/offres#ouventure-consulting",
+      },
+
+      {
+        label: "Oventure software",
+        href: "/offres#oventure-software",
+      },
+      {
+        label: "Finance Climat",
+        href: "/offres#finance-climat",
+      },
+      {
+        label: "Finance Climat School",
+        href: "/offres/finance-climat-school",
+      },
+
+    ]
   },
 
   {
     label: "QUI SOMMES-NOUS",
-    href: "/#",
+    href: "/qui-sommes-nous",
   },
   {
     label: "NOS PROJETS",
-    href: "/#",
+    href: "/nos-projets",
   },
   {
     label: "BLOG",
-    href: "/#",
+    href: "/blog",
   },
   {
     label: "RECRUTEMENT",
-    href: "/#",
+    href: "/recrutement",
   },
 
 ];
