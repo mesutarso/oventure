@@ -1,4 +1,5 @@
 import React from "react";
+import VideoHome from "../video";
 
 function Office() {
   return (
@@ -15,6 +16,7 @@ function Office() {
           des décideurs publiques.
         </p>
       </div>
+      <VideoHome />
       <div
         className="relative w-full pb-20 hidden md:block"
         role="region"

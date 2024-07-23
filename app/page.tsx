@@ -10,7 +10,6 @@ export default function Home() {
     <>
       <Hero />
       <Office />
-      <VideoHome />
       <Work />
       <SchoolSection />
     </>

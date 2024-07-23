@@ -12,7 +12,7 @@ function VideoHome() {
             src={VIDEOFILE}
             loop
             muted
-            controls={false}
+            controls={true}
             autoPlay
             playsInline
             className="w-full h-full"
