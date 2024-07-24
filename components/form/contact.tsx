@@ -69,7 +69,7 @@ const FormContact = () => {
                                 <FormItem>
                                     <FormLabel>Nom de famille</FormLabel>
                                     <FormControl>
-                                        <Input type={'text'} {...field} className={'py-4 px-4 h-12 border border-primary rounded'}/>
+                                        <Input type={'text'} {...field} className={'py-7 px-7 h-12 border border-primary rounded'}/>
                                     </FormControl>
                                     <FormMessage>
                                         {form.formState.errors.nom && form.formState.errors.nom.message}
@@ -84,7 +84,7 @@ const FormContact = () => {
                                 <FormItem>
                                     <FormLabel>Prénom</FormLabel>
                                     <FormControl>
-                                        <Input type={'text'} {...field} className={'py-4 px-4 h-12 border border-primary rounded'}/>
+                                        <Input type={'text'} {...field} className={'py-7 px-7 h-12 border border-primary rounded'}/>
                                     </FormControl>
                                     <FormMessage>
                                         {form.formState.errors.prenom && form.formState.errors.prenom.message}
@@ -103,7 +103,7 @@ const FormContact = () => {
                                 <FormItem>
                                     <FormLabel>Adresse electronique</FormLabel>
                                     <FormControl>
-                                        <Input type={'email'} {...field} className={'py-4 px-4 h-12 border border-primary rounded'}/>
+                                        <Input type={'email'} {...field} className={'py-7 px-7 h-12 border border-primary rounded'}/>
                                     </FormControl>
                                     <FormMessage>
                                         {form.formState.errors.email && form.formState.errors.email.message}
@@ -121,7 +121,7 @@ const FormContact = () => {
                                     <FormLabel>Message</FormLabel>
                                     <FormControl>
                                         <textarea {...field} rows={5} cols={30}
-                                                  className={'py-4 px-4  border border-primary rounded w-full block'}></textarea>
+                                                  className={'py-7 px-7  border border-primary rounded w-full block'}></textarea>
                                     </FormControl>
                                     <FormMessage>
                                         {form.formState.errors.message && form.formState.errors.message.message}
@@ -136,7 +136,7 @@ const FormContact = () => {
                     </div>
 
                     <div className={'mt-8'}>
-                        <Button type={'submit'} size={'lg'} className={'py-4 px-8 bg-primary rounded-2xl'}>
+                        <Button type={'submit'} size={'lg'} className={'py-7 px-8 bg-primary border-0 text-white'}>
                             {loading ? 'Envoi en cours ...' : 'Envoyer votre message'}
                         </Button>
                     </div>

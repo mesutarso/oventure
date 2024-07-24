@@ -8,7 +8,7 @@ function Recrutement() {
         <>
         <div className={'bg-gradient-to-tl from-blueDark to-blueLight '}>
             <div className="container section flex items-center min-h-[40vh] ">
-                <h1 className={'text-3xl md:text-7xl text-white uppercase pt-24'}>Recrutement !</h1>
+                <h1 className={'text-3xl md:text-7xl text-white uppercase pt-24 font-black'}>Recrutement !</h1>
 
             </div>
         </div>
@@ -24,13 +24,13 @@ function Recrutement() {
                         <div className={'flex flex-wrap items-center gap-4'}>
                             <Button className={'bg-blueLight text-white'}>
                                 <Link href={'/offres'}>
-                                    Voir nos offres
+                                    VOIR NOS OFFRES
                                 </Link>
 
                             </Button>
                             <Button className={'bg-blueDark text-white'}>
                                 <a href="mailto:recrutement@oventure-drc.com" className="mail">
-                                    Laissez-nous votre CV
+                                    LAISSEZ-NOUS VOTRE CV
                                 </a>
 
                             </Button>

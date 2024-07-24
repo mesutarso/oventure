@@ -6,7 +6,7 @@ function QuiSommesNous() {
         <>
             <div className={'bg-gradient-to-tl from-blueDark to-blueLight '}>
                 <div className="container section flex items-center min-h-[40vh] ">
-                    <h1 className={'text-3xl md:text-7xl text-white uppercase pt-24'}>Qui sommes nous</h1>
+                    <h1 className={'text-3xl md:text-7xl text-white uppercase pt-24 font-black'}>Qui sommes nous</h1>
                 </div>
             </div>
             <div className="container section space-y-10">
@@ -27,7 +27,7 @@ function QuiSommesNous() {
             <div className={'bg-blueDark text-white'}>
                 <div className="container section">
                     <h2 className={'mb-12 max-w-lg'}>
-                        <strong className={' text-4xl font-semibold '}>Un modèle hybride qui allie Conseil et Technologie </strong>
+                        <strong className={' text-4xl font-semibold '}>Un modèle hybride qui allie Conseil et Technologie</strong>
                     </h2>
                     <div className={'grid grid-cols-1 md:grid-cols-3 gap-4 '}>
                         <div>
