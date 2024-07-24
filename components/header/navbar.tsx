@@ -65,7 +65,7 @@ export default function NavBar({ isSticky }: Props) {
           }
 
             <Link href="/contact">
-              <Button className={'bg-primary border-0 text-white'}>
+              <Button className={'bg-blueDark border-0 text-white'}>
                   NOUS CONTACTEZ
               </Button>
             </Link>
