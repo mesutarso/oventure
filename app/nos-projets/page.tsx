@@ -114,7 +114,7 @@ function NosProjets() {
         <div className="mx-auto px-6 lg:px-8 mt-24 sm:mt-32 lg:mt-40">
           <div className="mx-auto max-w-2xl lg:max-w-none">
             <div className="">
-              <h1 className="font-black leading-tight text-3xl text-primary lg:text-5xl uppercase w-10/12">
+              <h1 className="font-black leading-tight text-3xl text-primary lg:text-4xl uppercase w-10/12">
                 Notre Proposition de valeur pour rendre le marché transparent,
                 intègre et liquide.
               </h1>
@@ -207,7 +207,74 @@ function NosProjets() {
         </div>
       </section>
 
-    
+      <div className="mt-24 space-y-24 sm:mt-32 sm:space-y-32 lg:mt-40 lg:space-y-40 bg-blueDark">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8 ">
+          <div className="mx-auto max-w-2xl lg:max-w-none">
+            <div className="lg:flex lg:justify-end lg:gap-x-8 lg:group-even/section:justify-start xl:gap-x-20 items-center">
+              <div className="mt-12 lg:mt-0 lg:w-[37rem] lg:flex-none lg:group-even/section:order-first ">
+                <div>
+                  <h3 className="font-black leading-tight text-2xl text-secondary lg:text-2xl uppercase w-10/12">
+                    Une approche unique pour placer la RDC comme leader de la
+                    finance carbone en Afrique.
+                  </h3>
+
+                  <h3 className="font-black leading-tight text-1xl text-white lg:text-1xl uppercase w-10/12 mt-6">
+                    Simplicité
+                  </h3>
+                  <div className="mt-6">
+                    <div className="space-y-6 text-base text-secondary-600">
+                      <p className="text-white">
+                        Interface intuitive, des outils conviviaux et un
+                        processus d&apos;intégration fluide, simplifiant la
+                        gestion et le financement des projets
+                      </p>
+                    </div>
+                  </div>
+
+                  <h3 className="font-black leading-tight text-1xl text-white lg:text-1xl uppercase w-10/12 mt-6">
+                    Transparence
+                  </h3>
+                  <div className="mt-6">
+                    <div className="space-y-6 text-base text-secondary-600">
+                      <p className="text-white">
+                        Traçabilité intégrale des données, assurant une
+                        visibilité totale aux parties prenantes et à l’Etat.
+                      </p>
+                    </div>
+                  </div>
+
+                  <h3 className="font-black leading-tight text-1xl text-white lg:text-1xl uppercase w-10/12 mt-6">
+                    Scalabilité
+                  </h3>
+                  <div className="mt-6">
+                    <div className="space-y-6 text-base text-secondary-600">
+                      <p className="text-white">
+                        Support des projets carbone dès la conception, avec une
+                        plateforme évolutive répondant aux besoins des banques
+                        et de leurs clients porteurs de projets.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="w-[33.75rem] flex-none lg:w-[45rem]">
+                <div className="justify-center lg:justify-end lg:group-even/section:justify-start relative flex aspect-[719/680] w-full ">
+                  <Image
+                    alt=""
+                    loading="lazy"
+                    width="2400"
+                    height="1800"
+                    decoding="async"
+                    className="w-full  object-cover"
+                    src={"/images/image-135.png"}
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
