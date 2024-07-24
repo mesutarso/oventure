@@ -5,7 +5,7 @@ import VIDEOFILE from "@/videos/forest.mp4";
 
 function VideoHome() {
   return (
-    <div className="container ">
+    <div className="container "  data-aos="zoom-in" data-aos-duration="2500">
       <div className="rounded-xl overflow-hidden">
         <div className="rounded-xl">
           <Video

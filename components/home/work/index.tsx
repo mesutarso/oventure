@@ -3,7 +3,7 @@ import React from "react";
 function Work() {
   return (
     <div className="container grid grid-cols-1 lg:grid-cols-3 gap-10 max-w-6xl mx-auto pb-20 pt-20">
-      <div className="rounded-xl border text-card-foreground border-none shadow-none bg-[#777CF3]/[9%] lg:bg-transparent">
+      <div className="rounded-xl border text-card-foreground border-none shadow-none bg-[#777CF3]/[9%] lg:bg-transparent" data-aos="zoom-in-down" data-aos-duration="1800" >
         <div className="flex flex-col space-y-1.5 p-6">
           <h1 className="font-black text-2xl lg:text-3xl uppercase w-10/12 lg:w-full text-black">
             Vous travaillez dans une PME/ETI
@@ -22,7 +22,8 @@ function Work() {
           </p>
         </div>
       </div>
-      <div className="rounded-xl border text-card-foreground border-none shadow-none bg-[#F3FCFE] lg:bg-transparent">
+
+      <div className="rounded-xl border text-card-foreground border-none shadow-none bg-[#F3FCFE] lg:bg-transparent" data-aos="zoom-in-down" data-aos-duration="2200">
         <div className="flex flex-col space-y-1.5 p-6">
           <h1 className="font-black text-2xl lg:text-3xl uppercase w-10/12 lg:w-full text-primary">
             Vous travaillez dans une grande entreprise?
@@ -39,7 +40,8 @@ function Work() {
           </p>
         </div>
       </div>
-      <div className="rounded-xl border text-card-foreground border-none shadow-none bg-[#FEF7F3] lg:bg-transparent">
+
+      <div className="rounded-xl border text-card-foreground border-none shadow-none bg-[#FEF7F3] lg:bg-transparent" data-aos="zoom-in-down" data-aos-duration="2500">
         <div className="flex flex-col space-y-1.5 p-6">
           <h1 className="font-black text-2xl lg:text-3xl uppercase w-10/12 lg:w-full text-blueLight">
             Vous êtes un investisseur ?
@@ -58,6 +60,7 @@ function Work() {
           </p>
         </div>
       </div>
+
     </div>
   );
 }

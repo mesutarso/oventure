@@ -21,6 +21,7 @@ function HorizontalCarousel() {
             <div
                 className="relative w-full  pb-8  md:block"
                 ref={targetRef}
+                data-aos="zoom-out-right"
             >
                 <div className="sticky top-0 flex-col w-full items-center overflow-hidden">
                     <motion.div  style={  { x } } className="flex -ml-1 w-full">
