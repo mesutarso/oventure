@@ -1,3 +1,4 @@
+//@ts-nocheck
 'use client'
 
 import React, { useRef } from "react";
@@ -9,19 +10,23 @@ function HorizontalCarousel() {
         target: targetRef,
     });
 
-    const x = useTransform(scrollYProgress, [0, 1], ["1%", "-20%"]);
+
+
+    const x =  useTransform(scrollYProgress, [0, 1], ["1%", "-20%"]);
+
+
 
     return (
         <>
             <div
-                className="relative w-full  pb-8 hidden md:block"
+                className="relative w-full  pb-8  md:block"
                 ref={targetRef}
             >
-                <div className="sticky top-0 flex w-full items-center overflow-hidden">
-                    <motion.div style={{ x }} className="flex -ml-1">
+                <div className="sticky top-0 flex-col w-full items-center overflow-hidden">
+                    <motion.div  style={  { x } } className="flex -ml-1 w-full">
                         <div
                             id={'card-1'}
-                            className="group relative h-[600px] w-[600px] overflow-hidden "
+                            className="group relative h-[600px] md:w-[600px] w-full overflow-hidden "
                         >
                             <div className="p-1">
                                 <div
@@ -34,6 +39,7 @@ function HorizontalCarousel() {
                                 </div>
                             </div>
                         </div>
+
                         <div
                             id={'card-2'}
                             className="group relative h-[600px] w-[600px] overflow-hidden"
@@ -49,6 +55,7 @@ function HorizontalCarousel() {
                                 </div>
                             </div>
                         </div>
+
                         <div
                             id={'card-3'}
                             className="group relative h-[600px] w-[600px] overflow-hidden bg-neutral-200"
