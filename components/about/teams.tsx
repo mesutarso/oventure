@@ -6,7 +6,7 @@ function Teams() {
 
             <h1 className={'text-3xl md:text-4xl font-semibold text-blueDark uppercase text-center mb-8'}>Notre
                 Équipe</h1>
-            <div className="flex items-start gap-10 justify-center flex-wrap">
+            {/* <div className="flex items-start gap-10 justify-center flex-wrap">
                 <div className={'card max-w-[403px] min-h-[400px] rounded-2xl border-2 border-b-8 border-accent'}>
                     <div className="card-image w-[400px] h-[400px] relative">
                         <Image
@@ -46,7 +46,7 @@ function Teams() {
                     </div>
                 </div>
 
-            </div>
+            </div> */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 my-16 gap-10 justify-center flex-wrap">
                 <div className={'card   rounded-2xl border-2 border-b-8 border-accent'}>
                     <div className="card-image relative min-h-[300px]">
