@@ -5,12 +5,12 @@ function Description() {
     return (
         <div className={'bg-blueDark text-white'}>
             <div className="container section">
-                <h2 className={'mb-12 max-w-lg'}>
+                <h2 className={'mb-12 max-w-lg'} data-aos="zoom-in" data-aos-duration="2500">
                     <strong className={' text-4xl font-semibold '}>Un modèle hybride qui allie Conseil et
                         Technologie </strong>
                 </h2>
                 <div className={'grid grid-cols-1 md:grid-cols-3 gap-4 '}>
-                    <div>
+                    <div data-aos="zoom-in-right" data-aos-duration="2500">
                         <div className={'flex flex-col items-center justify-center mb-4'}>
                             <Image
                                 src={'/images/consulting.png'}
@@ -99,7 +99,8 @@ function Description() {
 
 
                     </div>
-                    <div className={'flex items-center'}>
+
+                    <div className={'flex items-center'} data-aos="zoom-in" data-aos-duration="2500">
                         <Image
                             src={'/images/about.png'}
                             width={500}
@@ -107,7 +108,8 @@ function Description() {
                             alt={'tech'}
                         />
                     </div>
-                    <div>
+
+                    <div data-aos="zoom-in-left" data-aos-duration="2500">
                         <div className={'flex flex-col items-center justify-center mb-4'}>
                             <Image
                                 src={'/images/software.png'}
@@ -192,13 +194,14 @@ function Description() {
 
                 </div>
             </div>
+
             <div className="container section space-y-10 ">
                 <h2 className={'mb-12 max-w-lg'}>
-                    <strong className={' text-4xl font-semibold '}>Nos offres </strong>
+                    <strong className={' text-4xl font-semibold '} data-aos="zoom-in-down" data-aos-duration="2500">Nos offres </strong>
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
 
-                    <div className={'flex  items-start justify-center mb-4 gap-8'}>
+                    <div className={'flex  items-start justify-center mb-4 gap-8'} data-aos="zoom-in-right" data-aos-duration="2500">
                         <div className={'w-[20%]'}>
                             <Image
                                 src={'/images/software.png'}
@@ -221,7 +224,7 @@ function Description() {
                         </div>
 
                     </div>
-                    <div className={'flex  items-start justify-center mb-4 gap-8'}>
+                    <div className={'flex  items-start justify-center mb-4 gap-8'} data-aos="zoom-in-left" data-aos-duration="2500">
                         <div className={'w-[20%]'}>
                             <Image
                                 src={'/images/software.png'}
@@ -241,7 +244,7 @@ function Description() {
                         </div>
 
                     </div>
-                    <div className={'flex  items-start justify-center mb-4 gap-8'}>
+                    <div className={'flex  items-start justify-center mb-4 gap-8'} data-aos="zoom-in-right" data-aos-duration="2500">
                         <div className={'w-[20%]'}>
                             <Image
                                 src={'/images/software.png'}
@@ -261,7 +264,7 @@ function Description() {
                         </div>
 
                     </div>
-                    <div className={'flex  items-start justify-center mb-4 gap-8'}>
+                    <div className={'flex  items-start justify-center mb-4 gap-8'} data-aos="zoom-in-left" data-aos-duration="2500">
                         <div className={'w-[20%]'}>
                             <Image
                                 src={'/images/software.png'}

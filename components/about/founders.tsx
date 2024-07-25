@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function Founders() {
     return (
-        <div className={'container section'}>
+        <div className={'container section'} data-aos="zoom-out-down" data-aos-duration="2500">
 
             <h1 className={'text-3xl md:text-4xl font-semibold text-blueDark uppercase text-center mb-8'}>Nos fondateurs</h1>
             <div className="flex items-start gap-10 justify-center flex-wrap">

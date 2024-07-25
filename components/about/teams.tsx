@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function Teams() {
     return (
-        <div className={'container section'}>
+        <div className={'container section'} data-aos="zoom-out-down" data-aos-duration="2500">
 
             <h1 className={'text-3xl md:text-4xl font-semibold text-blueDark uppercase text-center mb-8'}>Notre
                 Équipe</h1>

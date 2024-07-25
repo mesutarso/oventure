@@ -6,7 +6,7 @@ function Hero() {
         <div className="container section space-y-10">
             <div className={'grid grid-cols-1 md:grid-cols-2 gap-8'}>
                 <div>
-                    <p>
+                    <p data-aos="fade-down-right" data-aos-duration="2500">
                         <strong className={'text-blueDark text-3xl font-semibold'}>Oventure </strong> est un cabinet de
                         conseil international et un éditeur de logiciels dédié à la finance
                         climat. Nous offrons des services de technologie et de conseil pour promouvoir le
@@ -19,13 +19,14 @@ function Hero() {
                         développement inclusif.
                     </p>
                 </div>
-                <div>
+                <div >
                     <Image
                         src={'/images/about-hero.jpg'}
                         alt={'hero'}
                         width={500}
                         height={500}
                         className={'rounded-2xl w-full'}
+                        data-aos="fade-down-left" data-aos-duration="2500"
                     />
                 </div>
             </div>

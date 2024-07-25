@@ -8,7 +8,7 @@ function QuiSommesNous() {
         <>
             <div className={'bg-gradient-to-tl from-blueDark to-blueLight '}>
                 <div className="container section flex items-center min-h-[40vh] ">
-                    <h1 className={'text-3xl md:text-7xl text-white uppercase pt-24 font-black'}>Qui sommes nous</h1>
+                    <h1 className={'text-3xl md:text-7xl text-white uppercase pt-24 font-black'} data-aos="zoom-out-down" data-aos-duration="2500">Qui sommes nous</h1>
                 </div>
             </div>
             <Hero/>
