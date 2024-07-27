@@ -48,7 +48,7 @@ function Recrutement() {
           </div>
           <div>
             <Image
-              src={"/images/offre.webp"}
+              src={"/images/talent-makers.png"}
               width={400}
               height={400}
               alt={"recrutement"}

@@ -19,7 +19,7 @@ function About() {
                         Inspirez des actions concrètes à l’échelle de chaque métier et au niveau de l’entreprise
 
                     </p>
-                    <ul className={'space-y-8'}>
+                    <ul className={'space-y-5'}>
                         <li className={'flex items-center gap-4'}>
                             <Circle className={'text-primary font-bold'}/>
                             <span>Plus de 190 chapitres de microlearning ludiques (vidéos + quizzs)</span>
@@ -45,7 +45,7 @@ function About() {
                         Inspirez des actions concrètes à l’échelle de chaque métier et au niveau de l’entreprise
 
                     </p>
-                    <ul className={'space-y-8'}>
+                    <ul className={'space-y-4'}>
                         <li className={'flex items-center gap-4'}>
                             <Circle className={'text-blueDark font-bold'}/>
                             <span>Contenus disponibles à la carte et plateforme à votre charte</span>
@@ -76,7 +76,7 @@ function About() {
                     <p className={'text-gray-400 mb-4'}>
                         Déployez les cours Climate School en moins de 3 mois au sein de votre outil de learning (LMS) ou via notre plateforme digitale (EdApp)
                     </p>
-                    <ul className={'space-y-8'}>
+                    <ul className={'space-y-4'}>
                         <li className={'flex items-center gap-4'}>
                             <Circle className={'text-primary font-bold'}/>
                             <span>Onboarding simple et guidé par nos équipes</span>
