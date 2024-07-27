@@ -13,44 +13,25 @@ export default function Footer() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6">
           <div className="xs:gap-8 grid grid-cols-4 gap-4 gap-y-8 py-8 md:py-12">
             <div className="col-span-4 sm:col-span-2 md:col-span-2 lg:col-span-1 xl:col-span-1">
-              <div className="mb-2 font-medium text-gray-800 font-black">
-                Addresse
-              </div>
-              <p className="text-gray-600 dark:text-slate-400">
-                51 avenue de la Gombe
-              </p>
-              <p className="text-gray-600 dark:text-slate-400">
-                Gombe, Q, Quartier seulement
-              </p>
+              <div className="mb-2 font-medium font-black">Addresse</div>
+              <p className="">51 avenue de la Gombe</p>
+              <p className="">Gombe, Q, Quartier seulement</p>
             </div>
             <div className="col-span-4 sm:col-span-2 md:col-span-2 lg:col-span-1 xl:col-span-1">
-              <div className="mb-2 font-medium font-black">
-                Téléphone
-              </div>
-              <p className="text-gray-600 dark:text-slate-400">
-                Reception: +243 123 4567 908
-              </p>
-              <p className="text-gray-600 dark:text-slate-400">
-                Bureau: +243 123 4567 908
-              </p>
+              <div className="mb-2 font-medium font-black">Téléphones</div>
+              <p className="">Reception: +243 123 4567 908</p>
+              <p className="">Bureau: +243 123 4567 908</p>
             </div>
             <div className="col-span-4 sm:col-span-2 md:col-span-2 lg:col-span-1 xl:col-span-1">
-              <div className="mb-2 font-medium font-black">
-                Email
-              </div>
-              <p className="text-gray-600 dark:text-slate-400">
-                info@oventure.com
-              </p>
-
+              <div className="mb-2 font-medium font-black">Email</div>
+              <p className="">info@oventure.com</p>
             </div>
             <div className="col-span-4 sm:col-span-2 md:col-span-2 lg:col-span-1 xl:col-span-1">
-              <div className="mb-2 font-medium font-black">
-                Réseaux Sociaux
-              </div>
+              <div className="mb-2 font-medium font-black">Réseaux Sociaux</div>
               <ul className="mb-4 -ml-2 rtl:ml-0 rtl:-mr-2 flex md:order-1 md:mb-0">
                 <li>
                   <a
-                    className="text-muted inline-flex items-center rounded-lg p-2.5 text-sm hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-700"
+                    className="text-muted inline-flex items-center rounded-lg p-2.5 text-sm "
                     aria-label="Twitter"
                     href="https://x.com/oventuredrc?s=21"
                   >
@@ -72,7 +53,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <a
-                    className="text-muted inline-flex items-center rounded-lg p-2.5 text-sm hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-700"
+                    className="text-muted inline-flex items-center rounded-lg p-2.5 text-sm hover:bg-gray-100"
                     aria-label="Instagram"
                     href="https://www.instagram.com/oventuredrc?igsh=MTE0OTF4YTF6a2lqYw%3D%3D&utm_source=qr"
                   >
@@ -96,7 +77,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <a
-                    className="text-muted inline-flex items-center rounded-lg p-2.5 text-sm hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-700"
+                    className="text-muted inline-flex items-center rounded-lg p-2.5 text-sm hover:bg-gray-100"
                     aria-label="Facebook"
                     href="https://www.facebook.com/Oventuredrc?mibextid=LQQJ4d"
                   >
@@ -118,7 +99,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <a
-                    className="text-muted inline-flex items-center rounded-lg p-2.5 text-sm hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-700"
+                    className="text-muted inline-flex items-center rounded-lg p-2.5 text-sm hover:bg-gray-100"
                     aria-label="RSS"
                     href="https://www.linkedin.com/in/oventure-drc-5ab529313?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
                   >
@@ -140,15 +121,14 @@ export default function Footer() {
                     </svg>
                   </a>
                 </li>
-                
               </ul>
             </div>
           </div>
-          <div className="text-muted py-6 text-sm text-gray-700 dark:text-slate-400 md:flex md:items-center md:justify-between md:py-8">
+          <div className="text-muted py-6 text-sm  md:flex md:items-center md:justify-between md:py-8">
             <ul className="mb-4 flex pl-2 rtl:pl-0 rtl:pr-2 md:order-1 md:mb-0">
               <li>
                 <a
-                  className="duration-150 ease-in-out placeholder:transition hover:text-gray-700 hover:underline dark:text-gray-400"
+                  className="duration-150 ease-in-out placeholder:transition"
                   aria-label="Terms &amp; Conditions"
                   href="/terms"
                 >
@@ -158,7 +138,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  className="duration-150 ease-in-out placeholder:transition hover:text-gray-700 hover:underline dark:text-gray-400"
+                  className="duration-150 ease-in-out placeholder:transition "
                   aria-label="Privacy Policy"
                   href="/privacy"
                 >
@@ -168,7 +148,14 @@ export default function Footer() {
             </ul>
             <div className="mr-4 rtl:mr-0 rtl:ml-4 text-sm">
               <span>
-                Réalisé par <a className="font-semibold text-slate-900 dark:text-gray-200 hover:text-blue-600 hover:underline dark:hover:text-blue-600" href="https://iconesrdc.com/"> <b>icones rdc</b></a>
+                Réalisé par{" "}
+                <a
+                  className="font-semibold text-slate-900"
+                  href="https://iconesrdc.com/"
+                >
+                  {" "}
+                  <b>icones rdc</b>
+                </a>
                 · All rights reserved.
               </span>
             </div>
