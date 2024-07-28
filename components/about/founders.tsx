@@ -58,7 +58,7 @@ function Founders() {
             "card max-w-[405px] min-h-[400px] rounded-2xl  border-2 border-b-8 border-primary "
           }
         >
-          <div className="card-image w-[400px] h-[400px] relative">
+          <div className="card-image w-full md:w-[400px] h-[400px] relative">
             <Image
               src={"/founders/founders-2.jpg"}
               alt={"founders"}
