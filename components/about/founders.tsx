@@ -6,7 +6,7 @@ function Founders() {
 
             <h1 className={'text-3xl md:text-4xl font-semibold text-blueDark uppercase text-center mb-8'}>Nos fondateurs</h1>
             <div className="flex items-start gap-10 justify-center flex-wrap">
-                <div className={'card max-w-[403px] min-h-[400px] rounded-2xl border-2 border-b-8 border-accent'}>
+                <div className={'card max-w-[403px] min-h-[400px] rounded-2xl border-2 border-b-8 border-primary'}>
                     <div className="card-image w-[400px] h-[400px] relative">
                         <Image
                             src={'/founders/founders-1.jpg'}
@@ -17,7 +17,7 @@ function Founders() {
                     </div>
                     <div className="card-content p-5">
                         <h3>
-                            <strong className={'text-accent text-xl font-semibold mb-2'}>Richard Impenge Sapu</strong>
+                            <strong className={'text-primary text-xl font-semibold mb-2'}>Richard Impenge Sapu</strong>
                         </h3>
                         <p className="role">
                             <strong className={'text-blueDark text-lg font-semibold'}>Président</strong>
@@ -33,7 +33,7 @@ function Founders() {
                         </p>
                     </div>
                 </div>
-                <div className={'card max-w-[405px] min-h-[400px] rounded-2xl  border-2 border-b-8 border-secondary '}>
+                <div className={'card max-w-[405px] min-h-[400px] rounded-2xl  border-2 border-b-8 border-primary '}>
                     <div className="card-image w-[400px] h-[400px] relative">
                         <Image
                             src={'/founders/founders-2.jpg'}
@@ -44,7 +44,7 @@ function Founders() {
                     </div>
                     <div className="card-content p-5">
                         <h3>
-                            <strong className={'text-secondary text-xl font-semibold mb-2'}>Dr. Roberto Ridolfi</strong>
+                            <strong className={'text-primary text-xl font-semibold mb-2'}>Dr. Roberto Ridolfi</strong>
                         </h3>
                         <p className="role">
                             <strong className={'text-blueDark text-lg font-semibold'}>Chief Strategy Officer</strong>
