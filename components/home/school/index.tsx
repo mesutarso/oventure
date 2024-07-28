@@ -4,10 +4,17 @@ import React from "react";
 
 function SchoolSection() {
   return (
-    <div className="mb-[100px]">
-      <div className="bg-black container rounded-xl min-h-[600px]" data-aos="zoom-out-down">
+    <div className="container ">
+      <div
+        className="bg-black container rounded-xl min-h-[600px]"
+        data-aos="zoom-out-down"
+      >
         <div className="gap-10 flex flex-col lg:flex-row items-center justify-center py-20 text-white max-w-5xl mx-auto">
-          <div className="lg:basis-1/2" data-aos="zoom-out" data-aos-duration="2500">
+          <div
+            className="lg:basis-1/2"
+            data-aos="zoom-out"
+            data-aos-duration="2500"
+          >
             <Image
               alt="Earth"
               loading="lazy"
@@ -18,7 +25,11 @@ function SchoolSection() {
               src="/images/finance-school-t.png"
             />
           </div>
-          <div className="lg:basis-1/2 flex flex-col items-start justify-center space-y-8" data-aos="zoom-out" data-aos-duration="2500">
+          <div
+            className="lg:basis-1/2 flex flex-col items-start justify-center space-y-8"
+            data-aos="zoom-out"
+            data-aos-duration="2500"
+          >
             <h1 className="font-black leading-tight text-3xl lg:text-5xl uppercase w-10/12">
               Finance Climat <span className="text-secondary">School</span>
             </h1>

@@ -70,7 +70,7 @@ function HorizontalCarousel() {
             </div>
           </motion.div>
         </div>
-        <div className="sticky top-0 flex flex-col w-full items-center overflow-hidden section ">
+        <div className="sticky top-0 flex lg:hidden flex-col w-full items-center overflow-hidden section ">
           <div className="flex flex-col md:flex-row -ml-1 w-full space-y-8">
             <div
               id={"card-1"}
