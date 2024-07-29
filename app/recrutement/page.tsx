@@ -16,7 +16,7 @@ function Recrutement() {
               "text-3xl md:text-7xl text-white uppercase pt-24 font-black"
             }
           >
-            Recrutement !
+            Recrutement 
           </h1>
         </div>
       </div>
