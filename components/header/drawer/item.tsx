@@ -10,11 +10,11 @@ type Props = {
 
 }
 
-function DrawerItem({ label, href,onClick}:Props) {
+function DrawerItem({ label, href, onClick }: Props) {
     return (
         <div>
             <Link href={href} className=''>
-                <span onClick={onClick} className='hover:bg-neutral-200 px-4 py-1 rounded uppercase text-normal text-primary'>
+                <span onClick={onClick} className='hover:bg-neutral-200 px-4 py-1 rounded uppercase text-normal text-blueDark'>
                     {label}
                 </span>
             </Link>

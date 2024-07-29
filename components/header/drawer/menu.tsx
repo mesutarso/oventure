@@ -12,12 +12,12 @@ type Props = {
 
 function Menu({ setOpen }: Props) {
     return (
-        <div>
+        <div className="space-y-4">
             {
-                MENU.map((item:any, index:number) => {
-                    if (item.children) {
+                MENU.map((item: any, index: number) => {
+                    if (item.subMenu) {
                         return (
-                            <DrawerDropdown key={index} onClick={() => setOpen(false)} label={item.label} href={item.href} subItems={item.children} />
+                            <DrawerDropdown key={index} onClick={() => setOpen(false)} label={item.label} href={item.href} subMenu={item.subMenu} />
                         )
                     } else {
                         return (

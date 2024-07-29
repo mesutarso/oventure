@@ -27,7 +27,7 @@ function DrawerMenu() {
             <DrawerContent className='min-h-screen'>
                 <DrawerHeader>
                     <DrawerTitle className='mb-12'>
-                        <Logo />
+                        <Logo isSticky={true} />
                     </DrawerTitle>
                     <DrawerDescription className='text-left text-lg'>
                         <div>

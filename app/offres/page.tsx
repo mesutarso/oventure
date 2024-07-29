@@ -22,11 +22,10 @@ function Offres() {
       </section>
 
       <section
-        className="flex flex-col space-y-8 overflow-hidden pb-48"
-        
+        className="flex flex-col space-y-8 overflow-hidden container section"
         id="ouventure-consulting"
       >
-        <div className="max-w-3xl py-12 lg:py-16 flex flex-col items-start w-full mx-auto container text-second space-y-6"  data-aos="zoom-out-down"
+        <div className="max-w-3xl py-12 lg:py-16 flex flex-col items-start w-full mx-auto container text-second space-y-6" data-aos="zoom-out-down"
           data-aos-duration="2500">
           <h1 className="font-black leading-tight text-3xl lg:text-6xl uppercase">
             Oventure consulting
@@ -41,9 +40,9 @@ function Offres() {
 
         <div className="relative mx-auto max-w-7xl px-4 md:px-6 py-12 md:py-16 lg:py-20 text-default">
           <div className="mx-auto max-w-7xl">
-            <div className="md:flex md:flex-row-reverse md:gap-16" 
-                data-aos="zoom-out-down"
-                data-aos-duration="2500">
+            <div className="md:flex md:flex-row-reverse md:gap-16"
+              data-aos="zoom-out-down"
+              data-aos-duration="2500">
               <div className="self-center md:basis-1/2">
                 <div className="mb-8 lg:mb-12 text-lg text-gray-600 dark:text-slate-400">
                   L&apos;offre de conseil est adaptée pour répondre aux besoins
@@ -225,9 +224,9 @@ function Offres() {
               </div>
 
               <div aria-hidden="true" className="mt-10 md:mt-0 md:basis-1/2">
-                <div className="relative m-auto max-w-4xl" 
-                    data-aos="flip-left"
-                    data-aos-duration="2500">
+                <div className="relative m-auto max-w-4xl"
+                  data-aos="flip-left"
+                  data-aos-duration="2500">
                   <Image
                     alt="image"
                     loading="lazy"
@@ -249,12 +248,12 @@ function Offres() {
         className="relative not-prose scroll-mt-[72px] bg-blueDark"
         id="oventure-software"
       >
-        <div className="absolute inset-0 bg-primary-50 dark:bg-slate-800"></div>
-        <div className="relative mx-auto max-w-7xl px-4 md:px-6 py-12 md:py-16 lg:py-20 text-default">
+
+        <div className="relative container section text-default">
           <div className="mb-4">
             <div className="mb-6 mx-auto md:mb-12 text-center"
-                data-aos="zoom-out-down"
-                data-aos-duration="2500"
+              data-aos="zoom-out-down"
+              data-aos-duration="2500"
             >
               <h1 className="font-black leading-tight text-3xl lg:text-6xl uppercase text-white">
                 Oventure software
@@ -279,10 +278,10 @@ function Offres() {
               data-aos-duration="2500"
             />
           </div>
-          <div className="grid mx-auto gap-8 md:gap-y-12 sm:grid-cols-2 mt-12 max-w-5xl" 
-                data-aos="zoom-in-up"
-                data-aos-duration="2500"
-            >
+          <div className="grid mx-auto gap-8 md:gap-y-12 sm:grid-cols-2 mt-12 max-w-5xl"
+            data-aos="zoom-in-up"
+            data-aos-duration="2500"
+          >
             <div>
               <div className="flex max-w-full sm:max-w-md mx-auto">
                 <div className="flex justify-center">
@@ -445,12 +444,12 @@ function Offres() {
         </div>
       </section>
 
-      <section className="mt-[-72px] pt-30 container" id="finance-climat" >
+      <section className="section container" id="finance-climat" >
         <div className="mx-auto px-4 pt-[72px] sm:px-6 md:flex md:h-screen 2xl:h-auto">
           <div className="block py-12  md:flex w-full ">
             <div className="mx-auto flex max-w-5xl basis-[60%] items-center"
-                data-aos="zoom-in-right"
-                data-aos-duration="2500"
+              data-aos="zoom-in-right"
+              data-aos-duration="2500"
             >
               <div className="pb-12 pr-0 md:py-0 md:pr-8 md:pb-0 lg:pr-16">
                 <h1 className="font-black leading-tight text-3xl lg:text-6xl uppercase">
