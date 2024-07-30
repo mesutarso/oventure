@@ -229,14 +229,14 @@ function Offres() {
                     data-aos="flip-left"
                     data-aos-duration="2500">
                   <Image
-                    alt="image"
+                    alt="image oventure consulting..."
                     loading="lazy"
                     width="828"
                     height="950"
                     decoding="async"
                     data-nimg="1"
                     className="mx-auto w-full rounded-lg shadow-lg bg-gray-400 dark:bg-slate-700"
-                    src="/images/consultating-img.png"
+                    src="/images/oventure-consulting-img-created.png"
                   />
                 </div>
               </div>
@@ -268,13 +268,13 @@ function Offres() {
           </div>
           <div aria-hidden="true" className="aspect-w-16 aspect-h-7">
             <Image
-              alt="image's overture software"
+              alt="image's overture software..."
               loading="lazy"
               width="728"
               height="320"
               decoding="async"
               className="w-full h-80 object-cover rounded-xl mx-auto bg-gray-500 shadow-lg"
-              src="/images/software-img.png"
+              src="/images/oventure-software.jpg"
               data-aos="flip-down"
               data-aos-duration="2500"
             />
@@ -501,13 +501,13 @@ function Offres() {
                 data-aos-duration="2500"
               >
                 <Image
-                  alt="Hero TailNext"
+                  alt="image finance climant..."
                   width="540"
                   height="405"
                   decoding="async"
                   data-nimg="1"
                   className="mx-auto h-full w-auto rounded-md bg-gray-400 object-cover drop-shadow-2xl"
-                  src="/images/finance-climat.png"
+                  src="/images/finance-carbone-img.png"
                 />
               </div>
             </div>
