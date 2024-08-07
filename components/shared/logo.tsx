@@ -11,12 +11,12 @@ function Logo({ isSticky }: Props) {
             {
                 isSticky ? (
                     <Link href={'/'}>
-                        <Image src={'/logo-transparent.png'} alt="logo" width={300} height={40} className="mix-blend-multiply" />
+                        <Image src={'/logo-oventure-rdc-dark.png'} alt="logo" width={300} height={40} className="mix-blend-multiply" />
                     </Link>
 
                 ) : (
                     <Link href={'/'}>
-                        <Image src={'/logo.png'} alt="logo" width={300} height={40} className="mix-blend-multiply" />
+                        <Image src={'/logo-oventure-rdc.png'} alt="logo" width={300} height={40} className="mix-blend-multiply" />
                     </Link>
                 )
             }

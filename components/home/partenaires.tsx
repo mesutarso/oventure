@@ -40,6 +40,11 @@ function Partenaires() {
             title: "unikin",
             image: '/partenaires/unikin.png'
         },
+        {
+
+            title: "unikin",
+            image: '/partenaires/afd.JPG'
+        },
 
 
 

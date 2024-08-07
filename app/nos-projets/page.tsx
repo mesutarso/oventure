@@ -11,7 +11,8 @@ function NosProjets() {
             className={
               "text-3xl md:text-7xl text-white uppercase pt-24 font-black"
             }
-            data-aos="zoom-out-down" data-aos-duration="2500"
+            data-aos="zoom-out-down"
+            data-aos-duration="2500"
           >
             Nos Projets
           </h1>
@@ -21,7 +22,11 @@ function NosProjets() {
       <div className="mb-[100px] mt-[100px]" data-aos="zoom-out-down">
         <div className="bg-blueDark container rounded-xl min-h-[600px]">
           <div className="gap-10 flex flex-col lg:flex-row items-center justify-center py-20 text-white max-w-5xl mx-auto">
-            <div className="lg:basis-1/2 flex flex-col items-start justify-center space-y-8" data-aos="zoom-out" data-aos-duration="2500">
+            <div
+              className="lg:basis-1/2 flex flex-col items-start justify-center space-y-8"
+              data-aos="zoom-out"
+              data-aos-duration="2500"
+            >
               <h1 className="font-black leading-tight text-3xl lg:text-5xl uppercase w-10/12">
                 FINAN<span className="text-secondary">CARBON</span>
               </h1>
@@ -29,8 +34,21 @@ function NosProjets() {
                 Unlocking project,{" "}
                 <span className="text-secondary">financing</span> impact.
               </h3>
+              <a href="https://www.financarbon.com" target="_blank">
+                <Button
+                  className={
+                    "border shadow-sm h-10 rounded-md px-4 py-6 text-xs font-bold uppercase bg-transparent border-main hover:text-secondary "
+                  }
+                >
+                  Découvrir financarbon
+                </Button>
+              </a>
             </div>
-            <div className="lg:basis-1/2" data-aos="zoom-out" data-aos-duration="2500">
+            <div
+              className="lg:basis-1/2"
+              data-aos="zoom-out"
+              data-aos-duration="2500"
+            >
               <Image
                 alt="Earth"
                 loading="lazy"
@@ -49,7 +67,11 @@ function NosProjets() {
         <div className="mx-auto max-w-7xl px-6 lg:px-8 ">
           <div className="mx-auto max-w-2xl lg:max-w-none">
             <div className="lg:flex lg:justify-end lg:gap-x-8 lg:group-even/section:justify-start xl:gap-x-20 items-center">
-              <div className="w-[33.75rem] flex-none lg:w-[45rem]" data-aos="zoom-out-right" data-aos-duration="2500">
+              <div
+                className="w-[33.75rem] flex-none lg:w-[45rem]"
+                data-aos="zoom-out-right"
+                data-aos-duration="2500"
+              >
                 <div className="justify-center lg:justify-end lg:group-even/section:justify-start relative flex aspect-[719/680] w-full ">
                   <svg viewBox="0 0 655 380" fill="none" className="h-full">
                     <g clip-path="url(#:S1:-clip)" className="group">
@@ -86,14 +108,18 @@ function NosProjets() {
                 </div>
               </div>
 
-              <div className="mt-12 lg:mt-0 lg:w-[37rem] lg:flex-none lg:group-even/section:order-first " data-aos="zoom-out-left" data-aos-duration="2500">
+              <div
+                className="mt-12 lg:mt-0 lg:w-[37rem] lg:flex-none lg:group-even/section:order-first "
+                data-aos="zoom-out-left"
+                data-aos-duration="2500"
+              >
                 <div>
                   <h1 className="font-black leading-tight text-3xl text-secondary lg:text-5xl uppercase w-10/12">
                     FINAN<span className="text-primary">CARBON</span>
                   </h1>
                   <div className="mt-6">
                     <div className="space-y-6 text-base text-secondary-600">
-                      <p className="text-white">
+                      <p className="text-white mb-10">
                         une plateforme SaaS B2B qui connecte les porteurs de
                         projets et les acheteurs de crédits carbone via leurs
                         banques de confiance. Financarbon simplifie la
@@ -103,6 +129,15 @@ function NosProjets() {
                         carbone aux acheteurs.
                       </p>
                     </div>
+                    <a href="https://www.financarbon.com" target="_blank" className="text-white">
+                      <Button
+                        className={
+                          "border shadow-sm h-10 rounded-md px-4 py-6 text-xs font-bold uppercase bg-transparent border-main hover:text-white "
+                        }
+                      >
+                        Découvrir financarbon
+                      </Button>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -127,7 +162,11 @@ function NosProjets() {
           <div className="mx-auto max-w-2xl lg:max-w-none">
             <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
               <div className="flex">
-                <article className="relative flex w-full flex-col rounded-3xl p-6 border border-primary transition hover:bg-primary hover:text-white sm:p-8" data-aos="zoom-out-right" data-aos-duration="2500">
+                <article
+                  className="relative flex w-full flex-col rounded-3xl p-6 border border-primary transition hover:bg-primary hover:text-white sm:p-8"
+                  data-aos="zoom-out-right"
+                  data-aos-duration="2500"
+                >
                   <h3>
                     <a href="/work/family-fund">
                       <span className="absolute inset-0 rounded-3xl"></span>
@@ -153,7 +192,11 @@ function NosProjets() {
                 </article>
               </div>
               <div className="flex">
-                <article className="relative flex w-full flex-col rounded-3xl p-6 border border-primary transition hover:bg-primary hover:text-white sm:p-8" data-aos="zoom-in-down" data-aos-duration="2500">
+                <article
+                  className="relative flex w-full flex-col rounded-3xl p-6 border border-primary transition hover:bg-primary hover:text-white sm:p-8"
+                  data-aos="zoom-in-down"
+                  data-aos-duration="2500"
+                >
                   <h3>
                     <a href="/work/unseal">
                       <span className="absolute inset-0 rounded-3xl"></span>
@@ -179,7 +222,11 @@ function NosProjets() {
                 </article>
               </div>
               <div className="flex">
-                <article className="relative flex w-full flex-col rounded-3xl p-6 border border-primary transition hover:bg-primary hover:text-white sm:p-8" data-aos="zoom-out-left" data-aos-duration="2500">
+                <article
+                  className="relative flex w-full flex-col rounded-3xl p-6 border border-primary transition hover:bg-primary hover:text-white sm:p-8"
+                  data-aos="zoom-out-left"
+                  data-aos-duration="2500"
+                >
                   <h3>
                     <a href="/work/phobia">
                       <span className="absolute inset-0 rounded-3xl"></span>
@@ -212,7 +259,11 @@ function NosProjets() {
         <div className="mx-auto max-w-7xl px-6 lg:px-8 ">
           <div className="mx-auto max-w-2xl lg:max-w-none">
             <div className="lg:flex lg:justify-end lg:gap-x-8 lg:group-even/section:justify-start xl:gap-x-20 items-center">
-              <div className="mt-12 lg:mt-0 lg:w-[37rem] lg:flex-none lg:group-even/section:order-first " data-aos="zoom-out-right" data-aos-duration="2500">
+              <div
+                className="mt-12 lg:mt-0 lg:w-[37rem] lg:flex-none lg:group-even/section:order-first "
+                data-aos="zoom-out-right"
+                data-aos-duration="2500"
+              >
                 <div>
                   <h3 className="font-black leading-tight text-2xl text-secondary lg:text-2xl uppercase w-10/12">
                     Une approche unique pour placer la RDC comme leader de la
@@ -259,7 +310,11 @@ function NosProjets() {
                 </div>
               </div>
 
-              <div className="w-[33.75rem] flex-none lg:w-[45rem]" data-aos="zoom-out-left" data-aos-duration="2500">
+              <div
+                className="w-[33.75rem] flex-none lg:w-[45rem]"
+                data-aos="zoom-out-left"
+                data-aos-duration="2500"
+              >
                 <div className="justify-center lg:justify-end lg:group-even/section:justify-start relative flex aspect-[719/680] w-full ">
                   <Image
                     alt=""

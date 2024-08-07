@@ -73,7 +73,7 @@ function Teams() {
                             src={'/teams/okito.jpg'}
                             alt={'founders'}
                             fill
-                            className={'rounded-t-2xl object-cover '}
+                            className={'rounded-t-2xl object-cover grayscale'}
                         />
                     </div>
                     <div className="card-content p-5">
@@ -111,7 +111,7 @@ function Teams() {
                             src={'/teams/nyoka.jpg'}
                             alt={'founders'}
                             fill
-                            className={'rounded-t-2xl object-cover '}
+                            className={'rounded-t-2xl object-cover grayscale'}
                         />
                     </div>
                     <div className="card-content p-5">
