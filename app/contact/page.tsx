@@ -36,7 +36,7 @@ function Contact() {
                             <a href="mailto:info@cfef.cd">contact@oventure-drc.com</a>
                         </p>
                         <p>
-                            <a href="243 829 441 411">+337 77 86 44</a>
+                            <a href="243 829 441 411">+243 994 235 789</a>
                         </p>
                         <div className={"mt-4 h-1 w-[80%] bg-primary"}/>
                     </div>

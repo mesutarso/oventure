@@ -15,13 +15,12 @@ export default function Footer() {
             <div className="xs:gap-8 grid grid-cols-4 gap-4 gap-y-8 py-8 md:py-12">
               <div className="col-span-4 sm:col-span-2 md:col-span-2 lg:col-span-1 xl:col-span-1">
                 <div className="mb-2 font-medium ">Addresse</div>
-                <p className="font-thin">51 avenue de la Gombe</p>
-                <p className="font-thin">Gombe, Q, Quartier seulement</p>
+                <p className="font-thin">3098 Av. Batetela / blvd du 30 juin, Immeuble Crown Tower , 14e niveau ,local 1402, Kinshasa, Democratic Republic of the Congo
+                </p>
               </div>
               <div className="col-span-4 sm:col-span-2 md:col-span-2 lg:col-span-1 xl:col-span-1">
                 <div className="mb-2 font-medium ">Téléphones</div>
-                <p className="font-thin">Reception: +243 123 4567 908</p>
-                <p className="font-thin">Bureau: +243 123 4567 908</p>
+                <p className="font-thin">Reception: +243 994 235 789</p>
               </div>
               <div className="col-span-4 sm:col-span-2 md:col-span-2 lg:col-span-1 xl:col-span-1">
                 <div className="mb-2 font-medium ">Email</div>
