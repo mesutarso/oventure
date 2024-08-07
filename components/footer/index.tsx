@@ -149,15 +149,14 @@ export default function Footer() {
               </ul>
               <div className="mr-4 rtl:mr-0 rtl:ml-4 text-sm">
                 <span>
-                  Réalisé par{" "}
+                Powered by {" "}
                   <a
                     className="font-semibold text-slate-900"
                     href="https://iconesrdc.com/"
+                    target="_blank"
                   >
-                    {" "}
-                    <b>icones rdc</b>
+                    <b>ICÔNES créa et stratégies</b>
                   </a>
-                  · Tous droits reservés.
                 </span>
               </div>
             </div>
