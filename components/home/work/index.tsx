@@ -33,7 +33,7 @@ function Work() {
           </h1>
         </div>
         <div className="p-6 pt-0">
-          <p className="mt-4 text-sm font-normal w-full">
+          <div className="mt-4 text-sm font-normal w-full">
             <ul>
               <li>
                 <b>1. Partenariats pour l’innovation</b>
@@ -53,9 +53,9 @@ function Work() {
                 marché.
               </li>
               <br />
-             
+
             </ul>
-          </p>
+          </div>
         </div>
       </div>
       <div
@@ -63,9 +63,9 @@ function Work() {
         data-aos="zoom-in-down"
         data-aos-duration="2200"
       >
-       
+
         <div className="p-6 pt-0 pb-0">
-          <p className="mt-4 text-sm font-normal w-full">
+          <div className="mt-4 text-sm font-normal w-full">
             <br />
             <ul>
               <li>
@@ -86,7 +86,7 @@ function Work() {
                 présentations convaincantes pour obtenir des financements.
               </li>
             </ul>
-          </p>
+          </div>
         </div>
       </div>
     </div>
