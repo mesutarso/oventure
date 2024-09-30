@@ -1,10 +1,11 @@
 import Image from "next/image";
-import {Circle} from "lucide-react";
+import { Circle } from "lucide-react";
 
 function Description() {
-    return (
-        <div className={'bg-blueDark text-white'}>
-            <div className="container section">
+  return (
+    <div>
+      <div className={"bg-blueDark text-white"}>
+        {/* <div className="container section">
                 <h2 className={'mb-12 max-w-lg'} data-aos="zoom-in" data-aos-duration="2500">
                     <strong className={' text-4xl font-semibold '}>Un modèle hybride qui allie Conseil et
                         Technologie </strong>
@@ -193,104 +194,179 @@ function Description() {
                     </div>
 
                 </div>
+            </div> */}
+
+        <div className="container section space-y-10 ">
+          <h2 className={"mb-12 text-center"}>
+            <strong
+              className={" text-4xl font-semibold "}
+              data-aos="zoom-in-down"
+              data-aos-duration="2500"
+            >
+              Que faisons-nous (Notre raison d’être)
+            </strong>
+          </h2>
+          <div className="">
+            <div
+              className={""}
+              data-aos="zoom-in-right"
+              data-aos-duration="2500"
+            >
+              <div className="">
+                <p className={"text-center text-xl"}>
+                  Nous fournissons des services de conseil spécialisés,
+                  développons des solutions de finance climatique sur mesure, et
+                  proposons des formations de haut niveau pour renforcer les
+                  capacités locales.
+                </p>{" "}
+                <br />
+                <p className={"text-center text-xl"}>
+                  Développons des solutions innovantes en finance climat et
+                  incubons les entreprises à la nouvelle économie du climat, en
+                  leur fournissant des services de conseil spécialisés et des
+                  formations de haut niveau pour renforcer les capacités
+                  locales.
+                </p>{" "}
+                <br />
+                <p className={"text-center text-xl"}>
+                  Notre objectif est de propulser la RDC comme un acteur central
+                  des solutions climatiques, en facilitant l’accès aux
+                  financements durables et soutenant la mise en œuvre de projets
+                  carbone.
+                </p>
+              </div>
             </div>
-
-            <div className="container section space-y-10 ">
-                <h2 className={'mb-12 max-w-lg'}>
-                    <strong className={' text-4xl font-semibold '} data-aos="zoom-in-down" data-aos-duration="2500">Nos offres </strong>
-                </h2>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
-
-                    <div className={'flex  items-start justify-center mb-4 gap-8'} data-aos="zoom-in-right" data-aos-duration="2500">
-                        <div className={'w-[20%]'}>
-                            <Image
-                                src={'/images/software.png'}
-                                width={150}
-                                height={150}
-                                alt={'tech'}
-                            />
-                        </div>
-
-                        <div className={'w-[80%]'}>
-                            <h3 className={'mb-4'}>
-                                <strong className={'text-2xl font-semibold'}>Mobilisation de Financements</strong>
-                            </h3>
-                            <p className={'mb-4 font-thin text-sm'}>
-                                Identifier et accéder à diverses sources de financements nationales et internationeles
-                                pour soutenir les initiatives climatiques de la RDC. Renforcer la credibilité et
-                                l&apos;attractivité du ministère pour attirer davantage de fonds et
-                                d&apos;investissements pour les projets environnementaux.
-                            </p>
-                        </div>
-
-                    </div>
-                    <div className={'flex  items-start justify-center mb-4 gap-8'} data-aos="zoom-in-left" data-aos-duration="2500">
-                        <div className={'w-[20%]'}>
-                            <Image
-                                src={'/images/software.png'}
-                                width={150}
-                                height={150}
-                                alt={'tech'}
-                            />
-                        </div>
-
-                        <div className={'w-[80%]'}>
-                            <h3 className={'mb-4'}>
-                                <strong className={'text-2xl font-semibold'}>Suivi et évaluation des initiatives</strong>
-                            </h3>
-                            <p className={'mb-4 font-thin text-sm'}>
-                                Travailler en étroite collaboration avec les parties prenantes nationales et internationales pour une approche integrée et cohérente dans la lutte contre le changement climatique. Mettre en place des mécanismes de suivi et d&apos;évaluation pour assurer la transparence et l&apos;efficacité des initiatives financées.
-                            </p>
-                        </div>
-
-                    </div>
-                    <div className={'flex  items-start justify-center mb-4 gap-8'} data-aos="zoom-in-right" data-aos-duration="2500">
-                        <div className={'w-[20%]'}>
-                            <Image
-                                src={'/images/software.png'}
-                                width={150}
-                                height={150}
-                                alt={'tech'}
-                            />
-                        </div>
-
-                        <div className={'w-[80%]'}>
-                            <h3 className={'mb-4'}>
-                                <strong className={'text-2xl font-semibold'}>Élaboration des stratégies durables</strong>
-                            </h3>
-                            <p className={'mb-4 font-thin text-sm'}>
-                                Conception et mise en oeuvre de politiques pour promouvoir des strategies innovantes et durables d&apos;adaptation et d&apos;atténuation des effets du changemant climatique.
-                            </p>
-                        </div>
-
-                    </div>
-                    <div className={'flex  items-start justify-center mb-4 gap-8'} data-aos="zoom-in-left" data-aos-duration="2500">
-                        <div className={'w-[20%]'}>
-                            <Image
-                                src={'/images/software.png'}
-                                width={150}
-                                height={150}
-                                alt={'tech'}
-                            />
-                        </div>
-
-                        <div className={'w-[80%]'}>
-                            <h3 className={'mb-4'}>
-                                <strong className={'text-2xl font-semibold'}>Renforcement des capacités institutionnelles et soutien dans les négociaations internationales</strong>
-                            </h3>
-                            <p className={'mb-4 font-thin text-sm'}>
-                                Renforcement des competences et capacités institutionnelles pour une gestion autonome et durable des financements climatiques.
-                            </p>
-                        </div>
-
-                    </div>
-
-
-                </div>
-            </div>
-
+          </div>
         </div>
-    )
+      </div>
+
+      <div className="container pt-20 pb-20">
+        <div className={"grid grid-cols-1 md:grid-cols-2 gap-8"}>
+          <div>
+            <p data-aos="fade-down-right" data-aos-duration="2500">
+              <strong className={"text-blueDark text-3xl font-semibold"}>
+                Notre Vision
+              </strong>
+              <br />
+              Être le hub principal de la finance climat en Afrique centrale, et
+              de solution pour la nouvelle économie du climat.
+            </p>
+          </div>
+          <div>
+            <Image
+              src={"/images/about-hero.jpg"}
+              alt={"hero"}
+              width={500}
+              height={500}
+              className={"rounded-2xl w-full"}
+              data-aos="fade-down-left"
+              data-aos-duration="2500"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div className={"bg-blueDark text-white"}>
+        <div className="container section space-y-10 ">
+          <h2 className={"mb-12"}>
+            <strong
+              className={" text-4xl font-semibold "}
+              data-aos="zoom-in-down"
+              data-aos-duration="2500"
+            >
+              Nos Missions
+            </strong>
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+            <div
+              className={"flex  items-start justify-center mb-4 gap-8"}
+              data-aos="zoom-in-right"
+              data-aos-duration="2500"
+            >
+              <div className={"w-[20%]"}>
+                <Image
+                  src={"/images/software.png"}
+                  width={150}
+                  height={150}
+                  alt={"tech"}
+                />
+              </div>
+
+              <div className={"w-[80%]"}>
+                <p className={"mb-4 font-thin text-sm"}>
+                  Renforcer les capacités des acteurs locaux pour accélérer la
+                  décarbonation de l’économie congolaise.
+                </p>
+              </div>
+            </div>
+            <div
+              className={"flex  items-start justify-center mb-4 gap-8"}
+              data-aos="zoom-in-left"
+              data-aos-duration="2500"
+            >
+              <div className={"w-[20%]"}>
+                <Image
+                  src={"/images/software.png"}
+                  width={150}
+                  height={150}
+                  alt={"tech"}
+                />
+              </div>
+
+              <div className={"w-[80%]"}>
+                <p className={"mb-4 font-thin text-sm"}>
+                  Développer et promouvoir des solutions financières durables
+                  qui répondent aux enjeux climatiques mondiaux, tout en
+                  valorisant les richesses naturelles de la RDC.
+                </p>
+              </div>
+            </div>
+            <div
+              className={"flex  items-start justify-center mb-4 gap-8"}
+              data-aos="zoom-in-right"
+              data-aos-duration="2500"
+            >
+              <div className={"w-[20%]"}>
+                <Image
+                  src={"/images/software.png"}
+                  width={150}
+                  height={150}
+                  alt={"tech"}
+                />
+              </div>
+
+              <div className={"w-[80%]"}>
+                <p className={"mb-4 font-thin text-sm"}>
+                  Faciliter l’accès aux financements climat,
+                </p>
+              </div>
+            </div>
+            <div
+              className={"flex  items-start justify-center mb-4 gap-8"}
+              data-aos="zoom-in-left"
+              data-aos-duration="2500"
+            >
+              <div className={"w-[20%]"}>
+                <Image
+                  src={"/images/software.png"}
+                  width={150}
+                  height={150}
+                  alt={"tech"}
+                />
+              </div>
+
+              <div className={"w-[80%]"}>
+                <p className={"mb-4 font-thin text-sm"}>
+                  Renforcement des capacités institutionnelles et soutien dans
+                  les négociaations internationales
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 }
 
-export default Description
+export default Description;

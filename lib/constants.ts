@@ -11,16 +11,16 @@ export const MENU: MenuItem[] = [
     subMenu : [
 
       {
-        label: "Oventure consulting",
+        label: "CONSEIL ET CONSULTANCE EN FINANCE CLIMAT",
         href: "/offres#ouventure-consulting",
       },
 
       {
-        label: "Oventure software",
+        label: "DÉVELOPPEMENT ET GESTION DE PROJETS CLIMAT",
         href: "/offres#oventure-software",
       },
       {
-        label: "Finance Climat",
+        label: "FINANCE CLIMAT",
         href: "/offres#finance-climat",
       },
       {

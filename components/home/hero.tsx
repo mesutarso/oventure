@@ -19,16 +19,16 @@ function Hero() {
           data-aos="zoom-in"
           data-aos-duration="2500"
         >
-          Catalyseur d&apos;innovation pour un monde
-          <span className="text-secondary"> durable.</span>
+        1er Incubateur et Réseau d’experts en République Démocratique du Congo à la finance
+          <span className="text-secondary"> climat.</span>
         </h1>
         <p
           className="mt-4 text-xs sm:text-sm lg:text-base font-light lg:w-3/6"
           data-aos="zoom-in"
           data-aos-duration="2000"
         >
-          Investissements durables en RDC et compensation carbone dans les pays
-          industrialisés.
+          Plateforme innovante spécialisée dans la formation et consultances en
+          finance climat
         </p>
         <div>
           <Link href={"/qui-sommes-nous"}>

@@ -13,7 +13,7 @@ function QuiSommesNous() {
             </div>
             <Hero/>
             <Description/>
-            <Founders/>
+            {/* <Founders/> */}
             <Teams/>
 
         </>

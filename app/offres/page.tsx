@@ -25,29 +25,34 @@ function Offres() {
         className="flex flex-col space-y-8 overflow-hidden container section"
         id="ouventure-consulting"
       >
-        <div className="max-w-3xl py-12 lg:py-16 flex flex-col items-start w-full mx-auto container text-second space-y-6" data-aos="zoom-out-down"
-          data-aos-duration="2500">
+        <div
+          className="max-w-3xl py-12 lg:py-16 flex flex-col items-start w-full mx-auto container text-second space-y-6"
+          data-aos="zoom-out-down"
+          data-aos-duration="2500"
+        >
           <h1 className="font-black leading-tight text-3xl lg:text-6xl uppercase">
-            Oventure consulting
+            Conseil et Consultance en Finance Climat
           </h1>
           <p className="mt-4 text-xs sm:text-sm font-normal lg:w-7/12 lg:max-w-none">
-            Sur ces thématiques, nous pouvons vous accompagner sur tous le
-            projets : <br />
-            L&apos;offre de conseil est adaptée pour répondre aux besoins
-            spécifiques de clients.
+            Nous proposons des services de conseil stratégique pour aider les
+            entreprises, les institutions publiques, et les ONG à intégrer et
+            comprendre les enjeux climatiques dans leurs modèles économiques. En
+            fournissant des analyses approfondies, des stratégies de
+            financement, et des recommandations pratiques pour optimiser la
+            gestion de projets carbones.
           </p>
         </div>
 
         <div className="relative mx-auto max-w-7xl px-4 md:px-6 py-12 md:py-16 lg:py-20 text-default">
           <div className="mx-auto max-w-7xl">
-            <div className="md:flex md:flex-row-reverse md:gap-16"
+            <div
+              className="md:flex md:flex-row-reverse md:gap-16"
               data-aos="zoom-out-down"
-              data-aos-duration="2500">
+              data-aos-duration="2500"
+            >
               <div className="self-center md:basis-1/2">
                 <div className="mb-8 lg:mb-12 text-lg text-gray-600 dark:text-slate-400">
-                  L&apos;offre de conseil est adaptée pour répondre aux besoins
-                  spécifiques du Ministère en tenant compte des particularités
-                  locales et des priorités stratégiques nationales.
+                  Services Incluent
                 </div>
                 <div className="grid mx-auto max-w-4xl gap-4 md:gap-y-6">
                   <div>
@@ -70,7 +75,8 @@ function Offres() {
                       </div>
                       <div className="mt-0.5">
                         <h3 className="text-lg font-medium leading-6 text-gray-900 dark:text-white mt-1 mb-2">
-                          Elaboration des politiques sectorielles
+                          Analyse des risques climatiques et des opportunités de
+                          financement vert.
                         </h3>
                       </div>
                     </div>
@@ -95,12 +101,9 @@ function Offres() {
                       </div>
                       <div className="mt-0.5">
                         <h3 className="text-lg font-medium leading-6 text-gray-900 dark:text-white mt-1 mb-2">
-                          Évaluation des besoins financiers:
+                          Élaboration de stratégies de décarbonisation pour les
+                          entreprises.
                         </h3>
-                        <p className="mt-1 text-gray-600 dark:text-slate-400">
-                          Identification des besoins financiers pour les projets
-                          climatiques.
-                        </p>
                       </div>
                     </div>
                   </div>
@@ -124,12 +127,9 @@ function Offres() {
                       </div>
                       <div className="mt-0.5">
                         <h3 className="text-lg font-medium leading-6 text-gray-900 dark:text-white mt-1 mb-2">
-                          Mobilisation de fonds
+                          Conseil en compensation carbone et gestion des crédits
+                          carbone.
                         </h3>
-                        <p className="mt-1 text-gray-600 dark:text-slate-400">
-                          Stratégies pour accéder aux financements nationaux et
-                          internationaux.
-                        </p>
                       </div>
                     </div>
                   </div>
@@ -153,70 +153,9 @@ function Offres() {
                       </div>
                       <div className="mt-0.5">
                         <h3 className="text-lg font-medium leading-6 text-gray-900 dark:text-white mt-1 mb-2">
-                          Gestion des risques financiers
+                          Assistance à la mise en conformité avec les normes
+                          environnementales et climatiques internationales.
                         </h3>
-                        <p className="mt-1 text-gray-600 dark:text-slate-400">
-                          Conseils sur la gestion des risques liés au climat et
-                          aux finances.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div>
-                    <div className="flex max-w-full">
-                      <div className="flex justify-center">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="24"
-                          height="24"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          className="tabler-icon tabler-icon-check flex-shrink-0 w-7 h-7 flex items-center justify-center rounded-full bg-primary-900 text-gray-50 mr-4 rtl:mr-0 rtl:ml-4 mt-1 p-1"
-                        >
-                          <path d="M5 12l5 5l10 -10"></path>
-                        </svg>
-                      </div>
-                      <div className="mt-0.5">
-                        <h3 className="text-lg font-medium leading-6 text-gray-900 dark:text-white mt-1 mb-2">
-                          Renforcement des capacités
-                        </h3>
-                        <p className="mt-1 text-gray-600 dark:text-slate-400">
-                          Programmes de formation et de développement des
-                          compétences pour le personnel du ministère.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div>
-                    <div className="flex max-w-full">
-                      <div className="flex justify-center">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="24"
-                          height="24"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          className="tabler-icon tabler-icon-check flex-shrink-0 w-7 h-7 flex items-center justify-center rounded-full bg-primary-900 text-gray-50 mr-4 rtl:mr-0 rtl:ml-4 mt-1 p-1"
-                        >
-                          <path d="M5 12l5 5l10 -10"></path>
-                        </svg>
-                      </div>
-                      <div className="mt-0.5">
-                        <h3 className="text-lg font-medium leading-6 text-gray-900 dark:text-white mt-1 mb-2">
-                          Suivi et Reporting
-                        </h3>
-                        <p className="mt-1 text-gray-600 dark:text-slate-400">
-                          Aide à la mise en place de systèmes de suivi et de
-                          reporting des financements climatiques.
-                        </p>
                       </div>
                     </div>
                   </div>
@@ -224,9 +163,11 @@ function Offres() {
               </div>
 
               <div aria-hidden="true" className="mt-10 md:mt-0 md:basis-1/2">
-                <div className="relative m-auto max-w-4xl"
+                <div
+                  className="relative m-auto max-w-4xl"
                   data-aos="flip-left"
-                  data-aos-duration="2500">
+                  data-aos-duration="2500"
+                >
                   <Image
                     alt="image oventure consulting..."
                     loading="lazy"
@@ -248,20 +189,21 @@ function Offres() {
         className="relative not-prose scroll-mt-[72px] bg-blueDark"
         id="oventure-software"
       >
-
         <div className="relative container section text-default">
           <div className="mb-4">
-            <div className="mb-6 mx-auto md:mb-12 text-center"
+            <div
+              className="mb-6 mx-auto md:mb-12 text-center"
               data-aos="zoom-out-down"
               data-aos-duration="2500"
             >
               <h1 className="font-black leading-tight text-3xl lg:text-6xl uppercase text-white">
-                Oventure software
+                Développement et Gestion de Projets Climat
               </h1>
               <p className="mx-auto mt-4 max-w-3xl text-xl text-white text-center">
-                Nous concevons des logiciels adaptés pour accroître la
-                transparence, l&apos;intégrité et, ultimement, la confiance au
-                sein des divers acteurs du marché carbone.
+                De la conception, à l’implémentation de projets verts et
+                climatiques. Nous offrons un appuie technique et stratégique
+                pour garantir la fiabilité, la durabilité et l’alignement à
+                l’émission de carbone.
               </p>
             </div>
           </div>
@@ -278,7 +220,8 @@ function Offres() {
               data-aos-duration="2500"
             />
           </div>
-          <div className="grid mx-auto gap-8 md:gap-y-12 sm:grid-cols-2 mt-12 max-w-5xl"
+          <div
+            className="grid mx-auto gap-8 md:gap-y-12 sm:grid-cols-2 mt-12 max-w-5xl"
             data-aos="zoom-in-up"
             data-aos-duration="2500"
           >
@@ -302,12 +245,8 @@ function Offres() {
                 </div>
                 <div className="mt-0.5">
                   <h3 className="text-lg font-semibold mb-2 text-white">
-                    Vérification et validation de projets
+                    Développement de projets de compensation carbone
                   </h3>
-                  <p className="text-gray-600 dark:text-slate-400 mt-0.5 text-white">
-                    Assurer l&apos;authenticité et la précision des projets pour
-                    garantir leur conformité et leur impact.
-                  </p>
                 </div>
               </div>
             </div>
@@ -334,12 +273,8 @@ function Offres() {
                 </div>
                 <div className="mt-0.5">
                   <h3 className="text-lg font-semibold mb-2 text-white">
-                    Gestion du suivi de la conformité
+                    Gestion et suivi des projets climatiques.
                   </h3>
-                  <p className="text-gray-600 dark:text-slate-400 mt-0.5 text-white">
-                    Suivre et gérer les exigences réglementaires pour assurer le
-                    respect des normes climatiques.
-                  </p>
                 </div>
               </div>
             </div>
@@ -368,75 +303,9 @@ function Offres() {
                 </div>
                 <div className="mt-0.5">
                   <h3 className="text-lg font-semibold mb-2 text-white">
-                    Inscription des crédits carbones
+                    Recherche de financement pour les projets carbones auprès
+                    des institutions internationales.
                   </h3>
-                  <p className="text-gray-600 dark:text-slate-400 mt-0.5 text-white">
-                    Enregistrer les crédits carbones sur les plateformes de
-                    marché pour faciliter leur échange et leur suivi.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div className="flex max-w-full sm:max-w-md mx-auto">
-                <div className="flex justify-center">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    className="tabler-icon tabler-icon-rocket rtl:mr-0 rtl:ml-2 flex-shrink-0 mr-4 mt-1 w-6 h-6 text-white"
-                  >
-                    <path d="M4 13a8 8 0 0 1 7 7a6 6 0 0 0 3 -5a9 9 0 0 0 6 -8a3 3 0 0 0 -3 -3a9 9 0 0 0 -8 6a6 6 0 0 0 -5 3"></path>
-                    <path d="M7 14a6 6 0 0 0 -3 6a6 6 0 0 0 6 -3"></path>
-                    <path d="M15 9m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path>
-                  </svg>
-                </div>
-                <div className="mt-0.5">
-                  <h3 className="text-lg font-semibold mb-2 text-white">
-                    Facilitation des transactions
-                  </h3>
-                  <p className="text-gray-600 dark:text-slate-400 mt-0.5 text-white">
-                    Simplifier et sécuriser les échanges de crédits carbones
-                    entre les différentes parties prenantes.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div className="flex max-w-full sm:max-w-md mx-auto">
-                <div className="flex justify-center">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    className="tabler-icon tabler-icon-arrows-right-left rtl:mr-0 rtl:ml-2 flex-shrink-0 mr-4 mt-1 w-6 h-6 text-white"
-                  >
-                    <path d="M21 7l-18 0"></path>
-                    <path d="M18 10l3 -3l-3 -3"></path>
-                    <path d="M6 20l-3 -3l3 -3"></path>
-                    <path d="M3 17l18 0"></path>
-                  </svg>
-                </div>
-                <div className="mt-0.5">
-                  <h3 className="text-lg font-semibold mb-2 text-white">
-                    Analyse des données et rapports
-                  </h3>
-                  <p className="text-gray-600 dark:text-slate-400 mt-0.5 text-white">
-                    Collecter et analyser les données climatiques pour produire
-                    des rapports détaillés et informatifs
-                  </p>
                 </div>
               </div>
             </div>
@@ -444,10 +313,11 @@ function Offres() {
         </div>
       </section>
 
-      <section className="section container" id="finance-climat" >
+      <section className="section container" id="finance-climat">
         <div className="mx-auto px-4 pt-[72px] sm:px-6 md:flex md:h-screen 2xl:h-auto">
           <div className="block py-12  md:flex w-full ">
-            <div className="mx-auto flex max-w-5xl basis-[60%] items-center"
+            <div
+              className="mx-auto flex max-w-5xl basis-[60%] items-center"
               data-aos="zoom-in-right"
               data-aos-duration="2500"
             >
@@ -457,29 +327,37 @@ function Offres() {
                 </h1>
                 <div className="mx-auto max-w-3xl pt-20">
                   <p className="mb-8 text-xl font-normal ">
-                    De nombreux programmes de transition énergétique et
-                    écologique sont mis en place dans le monde pour faire face
-                    aux problèmes du réchauffement climatique et de la
-                    pollution. Ces programmes sont soutenus par plusieurs pays
-                    et instances internationales comme l’ United Nations
-                    Environment Program (UNEP) ou le fonds Green Climate Fund
-                    (GCF).
+                    Nous soutenons les développeurs de projets verts en
+                    facilitant l’accès au financement climat. Nous travaillons
+                    en étroite collaboration avec des institutions financières,
+                    des fonds d’investissement, et des donateurs internationaux
+                    pour mobiliser les ressources nécessaires à la mise en œuvre
+                    de projets climatiques à fort impact.
                   </p>
                   <p className="mb-8 text-xl font-normal ">
-                    Ainsi, le financement de projets verts constitue à la fois
-                    un engagement irréversible et une opportunité de croissance
-                    pour les institutions financières, en étant un métier à part
-                    entière nécessitant la mise en place de produits financiers
-                    spécifiques selon des labels reconnus.
+                    <b>1. Mobilisation de Financements </b> <br />
+                    Identifier et accéder à diverses sources de financement
+                    nationales et internationales pour soutenir les initiatives
+                    climatiques de la RDC. Renforcer la crédibilité et
+                    l’attractivité des parties prenantes pour attirer davantage
+                    de fonds et d’investissements pour les projets
+                    environnementaux.
                   </p>
                   <p className="mb-8 text-xl font-normal ">
-                    Convaincu de l’impératif d’assurer un développement durable
-                    pour les générations futures, Oventure a développé un
-                    savoir-faire dans le domaine de la Finance Verte (le
-                    financement des énergies renouvelables, de l’efficacité
-                    énergétique et de la protection de l’environnement) au
-                    travers de différentes missions réalisées en faveur
-                    d’institutions financières.
+                    <b>2. Élaboration de stratégies durables</b> <br />
+                    Conception et mise en œuvre de politiques pour promouvoir
+                    des stratégies innovantes et durables d’adaptation et
+                    d’atténuation des effets du changement climatique.
+                  </p>
+                  <p className="mb-8 text-xl font-normal ">
+                    <b>
+                      3. Renforcement des capacités institutionnelles et soutien
+                      dans les négociations internationales
+                    </b>
+                    <br />
+                    Renforcement des compétences et capacités institutionnelles
+                    pour une gestion autonome et durable des financements
+                    climatiques.
                   </p>
                   <div className="flex max-w-none flex-col flex-nowrap justify-center gap-4 sm:flex-row md:m-0 md:justify-start">
                     <div className="flex w-auto cursor-pointer">
@@ -495,7 +373,8 @@ function Offres() {
               </div>
             </div>
             <div className="block flex-1 items-center md:flex">
-              <div className="relative m-auto h-full max-w-4xl object-cover"
+              <div
+                className="relative m-auto h-full max-w-4xl object-cover"
                 data-aos="zoom-in-left"
                 data-aos-duration="2500"
               >
@@ -508,6 +387,87 @@ function Offres() {
                   className="mx-auto h-full w-auto rounded-md bg-gray-400 object-cover drop-shadow-2xl"
                   src="/images/finance-carbone-img.png"
                 />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="section container" id="finance-climat">
+        <div className="mx-auto px-4 pt-[72px] sm:px-6 md:flex md:h-screen 2xl:h-auto">
+          <div className="block py-12  md:flex w-full ">
+            <div className="block flex-1 items-center md:flex lg:pr-16">
+              <div
+                className="relative m-auto h-full max-w-4xl object-cover md:py-0 md:pr-8"
+                data-aos="zoom-in-left"
+                data-aos-duration="2500"
+              >
+                <Image
+                  alt="image finance climant..."
+                  width="540"
+                  height="405"
+                  decoding="async"
+                  data-nimg="1"
+                  className="mx-auto h-full w-auto rounded-md bg-gray-400 object-cover drop-shadow-2xl"
+                  src="/images/finance-carbone-img.png"
+                />
+              </div>
+            </div>
+
+            <div
+              className="mx-auto flex max-w-5xl basis-[60%] items-center"
+              data-aos="zoom-in-right"
+              data-aos-duration="2500"
+            >
+              <div className="pb-12 pr-0 md:py-0 md:pb-0">
+                <h1 className="font-black leading-tight text-3xl lg:text-6xl uppercase">
+                  Climate School - Former et Sensibiliser
+                </h1>
+                <div className="mx-auto max-w-3xl pt-20">
+                  <p className="mb-8 text-xl font-normal ">
+                    La Climate School de DECARBONE RDC est spécialisée dans la
+                    formation des professionnels, des décideurs publics, et des
+                    étudiants sur les enjeux de la finance climat et du
+                    développement durable. Ces programmes de formation sont
+                    conçus pour renforcer les compétences locales et encourager
+                    l’innovation dans le domaine climatique.
+                  </p>
+                  <p className="mb-8 text-xl font-normal ">
+                    <b>Services Incluent </b> <br />
+                  </p>
+                  <p className="mb-8 text-xl font-normal ">
+                    <b>Ateliers de haut lieu </b> <br />
+                    sur la finance climat et les mécanismes de marché du
+                    carbone.
+                  </p>
+                  <p className="mb-8 text-xl font-normal ">
+                    <b>Bootcamps carrière</b>
+                    <br />
+                    pour les jeunes professionnels désireux de se spécialiser
+                    dans la finance durable.
+                  </p>
+                  <p className="mb-8 text-xl font-normal ">
+                    <b>Programmes de formation hybride</b>
+                    <br />
+                    (en ligne et en présentiel) pour les institutions publiques
+                    et privées.
+                  </p>
+                  <p className="mb-8 text-xl font-normal ">
+                    <b>Modules de formation sur mesure</b>
+                    <br />
+                    pour les entreprises cherchant à intégrer la finance climat
+                    dans leurs opérations.
+                  </p>
+                  <div className="flex max-w-none flex-col flex-nowrap justify-center gap-4 sm:flex-row md:m-0 md:justify-start">
+                    <div className="flex w-auto cursor-pointer">
+                      <Button
+                        size={"lg"}
+                        className={"py-7 px-8 bg-primary border-0 text-white"}
+                      >
+                        Contactez-nous
+                      </Button>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
