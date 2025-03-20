@@ -48,44 +48,7 @@ function Teams() {
 
             </div> */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 my-16 gap-10 justify-center flex-wrap">
-                <div className={'card   rounded-2xl border-2 border-b-8 border-primary'}>
-                    <div className="card-image relative min-h-[300px]">
-                        <Image
-                            src={'/teams/cimina.jpg'}
-                            alt={'founders'}
-                            fill
-                            className={'rounded-t-2xl object-cover '}
-                        />
-                    </div>
-                    <div className="card-content p-5">
-                        <h3>
-                            <strong className={'text-primary text-xl font-semibold mb-2'}>CIMINA MALONGO Florry</strong>
-                        </h3>
-                        <p className="role">
-                            <strong className={'text-blueDark text-lg font-semibold'}>Directeur Financier</strong>
-                        </p>
 
-                    </div>
-                </div>
-                <div className={'card   rounded-2xl  border-2 border-b-8 border-primary '}>
-                    <div className="card-image min-h-[300px]  relative">
-                        <Image
-                            src={'/teams/okito.jpg'}
-                            alt={'founders'}
-                            fill
-                            className={'rounded-t-2xl object-cover grayscale'}
-                        />
-                    </div>
-                    <div className="card-content p-5">
-                        <h3>
-                            <strong className={'text-primary text-xl font-semibold mb-2'}>OKITO YATUTU Beau-Fils</strong>
-                        </h3>
-                        <p className="role">
-                            <strong className={'text-blueDark text-lg font-semibold'}>Country Manager</strong>
-                        </p>
-
-                    </div>
-                </div>
                 <div className={'card   rounded-2xl  border-2 border-b-8 border-primary '}>
                     <div className="card-image min-h-[300px]  relative">
                         <Image
@@ -97,10 +60,10 @@ function Teams() {
                     </div>
                     <div className="card-content p-5">
                         <h3>
-                            <strong className={'text-primary text-xl font-semibold mb-2'}>DIPA TSHIBAMBA Guylain</strong>
+                            <strong className={'text-primary text-xl font-semibold mb-2'}>Guylain TSHIBAMBA </strong>
                         </h3>
                         <p className="role">
-                            <strong className={'text-blueDark text-lg font-semibold'}>Directeur Marketing</strong>
+                            <strong className={'text-blueDark text-lg font-semibold'}>Président</strong>
                         </p>
 
                     </div>
@@ -117,6 +80,46 @@ function Teams() {
                     <div className="card-content p-5">
                         <h3>
                             <strong className={'text-primary text-xl font-semibold mb-2'}>NYOKA BETTAVER Sarina Laïla</strong>
+                        </h3>
+                        <p className="role">
+                            <strong className={'text-blueDark text-lg font-semibold'}>Coordonnatrice</strong>
+                        </p>
+
+                    </div>
+                </div>
+                <div className={'card   rounded-2xl  border-2 border-b-8 border-primary '}>
+                    <div className="card-image min-h-[300px]  relative">
+                        {/* <Image
+                            src={'/teams/nyoka.jpg'}
+                            alt={'founders'}
+                            fill
+                            className={'rounded-t-2xl object-cover grayscale'}
+                        /> */}
+
+                    </div>
+                    <div className="card-content p-5">
+                        <h3>
+                            <strong className={'text-primary text-xl font-semibold mb-2'}>TSHIBAMBA Florance</strong>
+                        </h3>
+                        <p className="role">
+                            <strong className={'text-blueDark text-lg font-semibold'}>Directrice Juridique</strong>
+                        </p>
+
+                    </div>
+                </div>
+                <div className={'card   rounded-2xl  border-2 border-b-8 border-primary '}>
+                    <div className="card-image min-h-[300px]  relative">
+                        {/* <Image
+                            src={'/teams/nyoka.jpg'}
+                            alt={'founders'}
+                            fill
+                            className={'rounded-t-2xl object-cover grayscale'}
+                        /> */}
+
+                    </div>
+                    <div className="card-content p-5">
+                        <h3>
+                            <strong className={'text-primary text-xl font-semibold mb-2'}>BUYA Bertin </strong>
                         </h3>
                         <p className="role">
                             <strong className={'text-blueDark text-lg font-semibold'}>Directrice Juridique</strong>

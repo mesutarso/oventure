@@ -5,24 +5,25 @@ import HorizontalCarousel from "./horizontal-carousel";
 function Office() {
   return (
     <div className="flex flex-col space-y-8">
-      <div className="max-w-4xl py-16 lg:py-24 flex flex-col md:flex-row items-start md:items-center justify-between w-full mx-auto container text-second">
+      <div className="max-w-4xl py-16 lg:py-24 flex flex-col md:flex-row items-start md:items-start justify-between w-full mx-auto container text-second">
         <h1
           className="font-black leading-tight text-3xl lg:text-4xl uppercase lg:basis-5/12"
           data-aos="fade-down-right"
           data-aos-duration="2500"
         >
-          CABINET CONSEIL
+          Decarbone RDC filiale Groupe All In One , est une plateforme de
+          référence en finance climat, dédiée à l&apos;innovation pour un
+          développement durable.
         </h1>
         <p
           className="mt-4 text-xs sm:text-sm font-light lg:basis-4/12 max-w-[70vw] lg:max-w-none"
           data-aos="fade-down-left"
           data-aos-duration="2500"
         >
-          Oventure est un cabinet de conseil international et un éditeur de
-          logiciels dédiés à la finance climat. Nous offrons des services de
-          technologie et de conseil pour promouvoir le financement climatique
-          auprès des développeurs de projets, des institutions financières et
-          des décideurs publiques.
+          Face aux défis mondiaux du changement climatique, notre mission est de
+          positionner la RDC au cœur des solutions climatiques globales et un
+          acteur clé de la transition énergétique, en catalysant des
+          investissements durables et en facilitant la compensation carbone.
         </p>
       </div>
       <VideoHome />

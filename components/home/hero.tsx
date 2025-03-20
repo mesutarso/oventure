@@ -1,49 +1,54 @@
-import Video from "next-video";
-import Partenaires from "./partenaires";
+"use client";
 import Image from "next/image";
-import { Button } from "../ui/button";
-import Link from "next/link";
+import { useRef, useState } from "react";
 
 function Hero() {
+
+  const videoRef = useRef<HTMLVideoElement>(null);
+  const [isMuted, setIsMuted] = useState(true);
+
+  const toggleMute = () => {
+    if (videoRef.current) {
+      videoRef.current.muted = !videoRef.current.muted;
+      setIsMuted(videoRef.current.muted);
+    }
+  };
+
+
   return (
-    <div className="relative h-[600px] lg:h-screen overflow-hidden">
-      <Image
-        src={"/images/oventure-cover.png"}
-        fill
-        className=" bg-gradient-to-br from-black bg-second md:bg-transparent "
-        alt="cover image"
-      />
-      <div className="relative z-10 flex flex-col items-start justify-center h-full text-white space-y-8 container">
-        <h1
-          className="text-2xl font-black leading-tight sm:text-3xl md:text-4xl lg:text-5xl lg:w-3/6 uppercase "
-          data-aos="zoom-in"
-          data-aos-duration="2500"
-        >
-        1er Incubateur et Réseau d’experts en République Démocratique du Congo à la finance
-          <span className="text-secondary"> climat.</span>
-        </h1>
-        <p
-          className="mt-4 text-xs sm:text-sm lg:text-base font-light lg:w-3/6"
-          data-aos="zoom-in"
-          data-aos-duration="2000"
-        >
-          Plateforme innovante spécialisée dans la formation et consultances en
-          finance climat
-        </p>
-        <div>
-          <Link href={"/qui-sommes-nous"}>
-            <Button
-              className={
-                "focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 border shadow-sm h-10 rounded-md px-4 py-6 text-xs font-bold uppercase bg-transparent border-main hover:bg-secondary hover:text-white hover:border-none"
-              }
-              data-aos="zoom-in"
-            >
-              Découvrir Maintenant
-            </Button>
-          </Link>
+    <div className={"relative "}>
+    <div className="h-full relative min-h-[100vh] flex flex-col  items-center justify-center bg-black ">
+      <video
+        autoPlay
+        muted
+        loop
+        style={{
+          position: 'absolute',
+          top: "50%",
+          left: '50%',
+          width: '100%',
+          height: '100%',
+          objectFit: 'cover',
+          transform: 'translate(-50%, -50%)'
+        }}
+      >
+        <source
+          src="https://res.cloudinary.com/dvmrtjjay/video/upload/v1732694788/Vide%CC%81o_Finance_climat_krmfbq.mp4"
+          type="video/mp4"
+        />
+      </video>
+      <div className="absolute bottom-40  right-8 p-2">
+          <button onClick={toggleMute} className="static border-1 border-rounded-full border-white">
+            <Image
+              src={isMuted ? "/sound-off.webp" : "/sound-on.webp"}
+              alt="Mute Toggle"
+              width={30}
+              height={30}
+            />
+          </button>
         </div>
-      </div>
     </div>
+  </div>
   );
 }
 

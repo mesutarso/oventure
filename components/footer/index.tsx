@@ -15,7 +15,7 @@ export default function Footer() {
             <div className="xs:gap-8 grid grid-cols-4 gap-4 gap-y-8 py-8 md:py-12">
               <div className="col-span-4 sm:col-span-2 md:col-span-2 lg:col-span-1 xl:col-span-1">
                 <div className="mb-2 font-medium ">Addresse</div>
-                <p className="font-thin">3098 Av. Batetela / blvd du 30 juin, Immeuble Crown Tower , 14e niveau ,local 1402, Kinshasa, Democratic Republic of the Congo
+                <p className="font-thin">3098 Av. Batetela / blvd du 30 juin, Immeuble Crown Tower , 9e niveau ,local 904, Kinshasa, Democratic Republic of the Congo
                 </p>
               </div>
               <div className="col-span-4 sm:col-span-2 md:col-span-2 lg:col-span-1 xl:col-span-1">
@@ -24,7 +24,11 @@ export default function Footer() {
               </div>
               <div className="col-span-4 sm:col-span-2 md:col-span-2 lg:col-span-1 xl:col-span-1">
                 <div className="mb-2 font-medium ">Email</div>
-                <p className="font-thin">info@oventure.com</p>
+                <p className="font-thin">
+                  <Link href="mailto:contact@decarbone.org">
+                  contact@decarbone.org
+                  </Link>
+                </p>
               </div>
               <div className="col-span-4 sm:col-span-2 md:col-span-2 lg:col-span-1 xl:col-span-1">
                 <div className="mb-2 font-medium ">Réseaux Sociaux</div>
