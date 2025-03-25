@@ -214,25 +214,23 @@ function Description() {
             >
               <div className="">
                 <p className={"text-center text-xl"}>
-                  Nous fournissons des services de conseil spécialisés,
-                  développons des solutions de finance climatique sur mesure, et
-                  proposons des formations de haut niveau pour renforcer les
-                  capacités locales.
-                </p>{" "}
-                <br />
-                <p className={"text-center text-xl"}>
-                  Développons des solutions innovantes en finance climat et
-                  incubons les entreprises à la nouvelle économie du climat, en
-                  leur fournissant des services de conseil spécialisés et des
-                  formations de haut niveau pour renforcer les capacités
-                  locales.
-                </p>{" "}
-                <br />
-                <p className={"text-center text-xl"}>
-                  Notre objectif est de propulser la RDC comme un acteur central
-                  des solutions climatiques, en facilitant l’accès aux
-                  financements durables et soutenant la mise en œuvre de projets
-                  carbone.
+                  Le contexte climatique actuel, marqué par des enjeux de
+                  développement vert, offre une opportunité unique pour la RDC
+                  d&apos;émerger comme un leader dans la finance climatique, en
+                  valorisant ses richesses naturelles et son potentiel en
+                  carbone. DECARBONE RDC, filiale du Groupe All In One, est une
+                  plateforme de référence en finance climat, dédiée à
+                  l&apos;innovation pour un développement durable. Face aux
+                  défis mondiaux du changement climatique, notre mission est de
+                  positionner la RDC au cœur des solutions climatiques globales
+                  et un acteur clé de la transition énergétique, en catalysant
+                  des investissements durables et en facilitant la compensation
+                  carbone. Nous nous spécialisons dans les investissements
+                  durables en RDC et la compensation carbone dans les pays
+                  industrialisés. Notre plateforme d&apos;expertise intègre une
+                  profonde connaissance des métiers liés à la finance climat,
+                  apportant des solutions innovantes pour répondre aux défis
+                  mondiaux et promouvoir les projets verts.
                 </p>
               </div>
             </div>
@@ -271,8 +269,6 @@ function Description() {
           <h2 className={"mb-12"}>
             <strong
               className={" text-4xl font-semibold "}
-              data-aos="zoom-in-down"
-              data-aos-duration="2500"
             >
               Nos Missions
             </strong>
@@ -280,8 +276,6 @@ function Description() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
             <div
               className={"flex  items-start justify-center mb-4 gap-8"}
-              data-aos="zoom-in-right"
-              data-aos-duration="2500"
             >
               <div className={"w-[20%]"}>
                 <Image
@@ -295,14 +289,12 @@ function Description() {
               <div className={"w-[80%]"}>
                 <p className={"mb-4 font-thin text-sm"}>
                   Renforcer les capacités des acteurs locaux pour accélérer la
-                  décarbonation de l’économie congolaise.
+                  décarbonation de l&apos;économie congolaise.
                 </p>
               </div>
             </div>
             <div
               className={"flex  items-start justify-center mb-4 gap-8"}
-              data-aos="zoom-in-left"
-              data-aos-duration="2500"
             >
               <div className={"w-[20%]"}>
                 <Image
@@ -323,8 +315,6 @@ function Description() {
             </div>
             <div
               className={"flex  items-start justify-center mb-4 gap-8"}
-              data-aos="zoom-in-right"
-              data-aos-duration="2500"
             >
               <div className={"w-[20%]"}>
                 <Image
@@ -343,8 +333,6 @@ function Description() {
             </div>
             <div
               className={"flex  items-start justify-center mb-4 gap-8"}
-              data-aos="zoom-in-left"
-              data-aos-duration="2500"
             >
               <div className={"w-[20%]"}>
                 <Image

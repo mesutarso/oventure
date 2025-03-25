@@ -10,14 +10,16 @@ function Work() {
       >
         <div className="flex flex-col space-y-1.5 p-6">
           <h1 className="font-black text-2xl lg:text-3xl uppercase w-10/12 lg:w-full text-blueLight">
-            Etes-vous porteur d’idées à la Nouvelle Économie du Climat ?
+            Leadership Climat ; Atelier de haut lieu sur la finance climat
           </h1>
         </div>
 
         <div className="p-6 pt-0">
           <p className="mt-4 text-sm font-normal w-full">
-            De la conceptualisation à l&apos;implémentation de votre idée à
-            projet durable, avec une stratégie de décarbonation sur-mesure.
+            Les Ateliers de Leadership sur les Finances Climat et les Marchés
+            Carbone en RDC sont conçus pour être un point de convergence pour
+            les décideurs, les leaders d&apos;opinion, et les acteurs clés de la
+            finance et de l&apos;environnement en RDC.
           </p>
         </div>
       </div>
@@ -29,32 +31,17 @@ function Work() {
       >
         <div className="flex flex-col space-y-1.5 p-6">
           <h1 className="font-black text-2xl lg:text-3xl uppercase w-10/12 lg:w-full text-primary">
-            Avez-vous besoin d’un incubateur ?
+            Climate school
           </h1>
         </div>
         <div className="p-6 pt-0">
           <div className="mt-4 text-sm font-normal w-full">
-            <ul>
-              <li>
-                <b>1. Partenariats pour l’innovation</b>
-              </li>
-              <br />
-              <li>
-                <b>Accompagnement des startups </b> : Nous aidons les
-                entreprises à développer des solutions financières axées sur le
-                climat, telles que des technologies vertes, des systèmes de
-                financement durable ou des modèles économiques circulaires.
-              </li>
-              <br />
-              <li>
-                <b> Validation des idées</b> : Nous facilitons la validation des
-                concepts liés à la finance climat, permettant aux entrepreneurs
-                de tester et d’affiner leurs projets avant de les lancer sur le
-                marché.
-              </li>
-              <br />
-
-            </ul>
+            <p>
+              La Climate School de DECARBONE est conçue pour toute personne
+              désireuse d’acquérir des connaissances approfondies sur les enjeux
+              climatiques et de participer activement à la transition
+              écologique.
+            </p>
           </div>
         </div>
       </div>
@@ -63,29 +50,21 @@ function Work() {
         data-aos="zoom-in-down"
         data-aos-duration="2200"
       >
+        <div className="flex flex-col space-y-1.5 p-6">
+          <h1 className="font-black text-2xl lg:text-3xl uppercase w-10/12 lg:w-full text-primary">
+            Bootcamp carrière
+          </h1>
+        </div>
 
         <div className="p-6 pt-0 pb-0">
           <div className="mt-4 text-sm font-normal w-full">
-            <br />
-            <ul>
-              <li>
-                <b>2. Accès aux financements</b>
-              </li>
-              <br />
-
-              <li>
-                <b>Mise en relation avec des investisseurs </b> : Connections de
-                startups avec des investisseurs spécialisés dans la finance
-                climat, tels que des fonds d&apos;impact ou des investisseurs
-                institutionnels soucieux de la Nouvelle Économie du Climat.
-              </li>
-              <br />
-              <li>
-                <b>Aide à la préparation de dossiers</b> : Assistance aux
-                entrepreneurs dans la préparation de business plans et de
-                présentations convaincantes pour obtenir des financements.
-              </li>
-            </ul>
+            <p>
+              Le Bootcamp Carrière de DECARBONE est spécialement conçu pour les
+              jeunes professionnels et les étudiants en fin de cycle qui
+              souhaitent se spécialiser et se lancer dans des carrières liées à
+              la finance climat, au développement durable, et aux domaines
+              connexes.
+            </p>
           </div>
         </div>
       </div>
