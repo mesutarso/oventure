@@ -11,18 +11,15 @@ function Office() {
           data-aos="fade-down-right"
           data-aos-duration="2500"
         >
-          Decarbone RDC est une plateforme de
-          référence en finance climat, dédiée à l&apos;innovation pour un
-          développement durable.
+          Decarbone RDC est une plateforme dediée à l'innovation pour développement durable et finance climat.
         </h1>
         <p
           className="mt-4 text-xs sm:text-sm font-light lg:basis-4/12 max-w-[70vw] lg:max-w-none"
           data-aos="fade-down-left"
           data-aos-duration="2500"
         >
-          Face aux défis mondiaux du changement climatique, notre mission est de
-          positionner la RDC au cœur des solutions climatiques globales et un
-          acteur clé de la transition énergétique, en catalysant des
+          Face aux enjeux liés à la dégradation de l'environnement et au changement climatique, notre mission est de
+          positionner la RDC au cœur des solutions climatiques et de la transition écologique, en catalysant des
           investissements durables et en facilitant la compensation carbone.
         </p>
       </div>
