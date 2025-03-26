@@ -46,8 +46,8 @@ function HorizontalCarousel() {
               <div className="p-1">
                 <div className="rounded-xl border text-card-foreground bg-secondary shadow-sm border-none w-full">
                   <div className="flex aspect-[16/12] items-center justify-center p-0 relative">
-                    <h1 className="absolute bottom-0 left-0 p-10 text-3xl md:text-4xl lg:text-5xl font-black uppercase outlined-text">
-                      le plus grand marché carbone en afrique
+                    <h1 className="absolute bottom-0 left-0 p-10 text-3xl md:text-4xl lg:text-5xl font-black uppercase outlined-text text-white">
+                      Finance Climat
                     </h1>
                   </div>
                 </div>
@@ -59,10 +59,10 @@ function HorizontalCarousel() {
               className="group relative h-[600px] w-[600px] overflow-hidden bg-neutral-200"
             >
               <div className="p-1">
-                <div className="rounded-xl border text-card-foreground bg-blueLight shadow-sm border-none w-full">
+                <div className="rounded-xl border text-card-foreground bg-blueDark shadow-sm border-none w-full">
                   <div className="flex aspect-[16/12] items-center justify-center p-0 relative">
                     <h1 className="absolute bottom-0 left-0 p-10 text-3xl md:text-4xl lg:text-5xl font-black uppercase outlined-text text-white">
-                      analyses &amp; rapports
+                      climat School
                     </h1>
                   </div>
                 </div>
@@ -95,7 +95,7 @@ function HorizontalCarousel() {
                 <div className="rounded-xl border text-card-foreground bg-secondary shadow-sm border-none w-full">
                   <div className="flex aspect-[16/12] items-center justify-center p-0 relative">
                     <h1 className="absolute bottom-0 left-0 p-10 text-3xl md:text-4xl lg:text-5xl font-black uppercase outlined-text">
-                      le plus grand marché carbone en afrique
+                      Finance Climat
                     </h1>
                   </div>
                 </div>
@@ -110,7 +110,7 @@ function HorizontalCarousel() {
                 <div className="rounded-xl border text-card-foreground bg-blueLight shadow-sm border-none w-full">
                   <div className="flex aspect-[16/12] items-center justify-center p-0 relative">
                     <h1 className="absolute bottom-0 left-0 p-10 text-3xl md:text-4xl lg:text-5xl font-black uppercase outlined-text text-white">
-                      analyses &amp; rapports
+                      Climat School
                     </h1>
                   </div>
                 </div>

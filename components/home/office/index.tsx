@@ -11,7 +11,7 @@ function Office() {
           data-aos="fade-down-right"
           data-aos-duration="2500"
         >
-          Decarbone RDC filiale Groupe All In One , est une plateforme de
+          Decarbone RDC est une plateforme de
           référence en finance climat, dédiée à l&apos;innovation pour un
           développement durable.
         </h1>
@@ -26,9 +26,11 @@ function Office() {
           investissements durables et en facilitant la compensation carbone.
         </p>
       </div>
-      <VideoHome />
       <div className="relative">
         <HorizontalCarousel />
+      </div>
+      <div className="bg-[#fbe910] py-20">
+        <VideoHome />
       </div>
     </div>
   );

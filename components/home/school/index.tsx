@@ -1,12 +1,13 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 function SchoolSection() {
   return (
     <div className="container ">
       <div
-        className="bg-black container rounded-xl min-h-[600px]"
+        className="bg-[#42b8ef] container rounded-xl min-h-[600px]"
         data-aos="zoom-out-down"
       >
         <div className="gap-10 flex flex-col lg:flex-row items-center justify-center py-20 text-white max-w-5xl mx-auto">
@@ -31,7 +32,7 @@ function SchoolSection() {
             data-aos-duration="2500"
           >
             <h1 className="font-black leading-tight text-3xl lg:text-5xl uppercase w-10/12">
-              Finance Climat <span className="text-secondary">School</span>
+              Finance Climat <span className="text-[#00246d]">School</span>
             </h1>
             <h3 className="font-black leading-tight text-md lg:text-md uppercase w-10/12">
               Des formations adaptées à vos besoins
@@ -42,10 +43,12 @@ function SchoolSection() {
             </p>
             <Button
               className={
-                "border shadow-sm h-10 rounded-md px-4 py-6 text-xs font-bold uppercase bg-transparent border-main hover:text-secondary "
+                "border shadow-sm h-10 rounded-md px-4 py-6 text-xs font-bold uppercase bg-transparent border-main hover:text-blueDark "
               }
             >
+              <Link href={'https://axaclimateschool.com/fr/our-products/climate-school/'} target="_blank">
               Découvrir Maintenant
+              </Link>
             </Button>
           </div>
         </div>

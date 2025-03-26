@@ -5,16 +5,18 @@ import SchoolSection from "@/components/home/school";
 import Offers from "@/components/home/offers";
 import WhySection from "@/components/home/why";
 import WhatWeDo from "@/components/home/whatwedo";
+import Teams from "@/components/about/teams";
 
 export default function Home() {
   return (
     <>
       <Hero />
       <Office />
-      <Work />
-      <Offers />  
+      {/* <Work /> */}
+      {/* <Offers />   */}
       {/* <WhySection /> */}
-      <WhatWeDo />
+      {/* <WhatWeDo /> */}
+      <Teams />
       <SchoolSection />
     </>
   );

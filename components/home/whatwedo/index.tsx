@@ -1,9 +1,9 @@
-import Image from "next/image"
-import { Button } from "@/components/ui/button"
+import Image from "next/image";
+import { Button } from "@/components/ui/button";
 
 export default function WhatWeDo() {
   return (
-    <section className="bg-[#0e342d] text-white mb-24">
+    <section className="bg-[#0e342d] text-white mb-24 py-20">
       <div className="container mx-auto px-4 py-16 md:py-24">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16">
           {/* Image Column */}
@@ -20,7 +20,9 @@ export default function WhatWeDo() {
 
           {/* Content Column */}
           <div className="space-y-8">
-            <h2 className="text-3xl md:text-4xl font-bold">Partenariats pour l&apos;innovation</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-7">
+              Partenariats pour l&apos;innovation
+            </h2>
             <ul className="space-y-4">
               {[
                 "Accompagnement des startups : Nous aidons les entreprises à développer des solutions financières axées sur le climat, telles que des technologies vertes, des systèmes de financement durable ou des modèles économiques circulaires.",
@@ -28,7 +30,12 @@ export default function WhatWeDo() {
               ].map((item, index) => (
                 <li key={index} className="flex items-start">
                   <span className="text-[#4cd4c0] mr-3 mt-1.5 flex-shrink-0">
-                    <svg width="8" height="8" viewBox="0 0 8 8" fill="currentColor">
+                    <svg
+                      width="8"
+                      height="8"
+                      viewBox="0 0 8 8"
+                      fill="currentColor"
+                    >
                       <circle cx="4" cy="4" r="4" />
                     </svg>
                   </span>
@@ -41,10 +48,11 @@ export default function WhatWeDo() {
       </div>
       <div className="container mx-auto px-4 py-16 md:py-24">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16">
-          
           {/* Content Column */}
           <div className="space-y-8">
-            <h2 className="text-3xl md:text-4xl font-bold">Accès aux financements</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-7">
+              Accès aux financements
+            </h2>
             <ul className="space-y-4">
               {[
                 "Mise en relation avec des investisseurs : Connections de startups avec des investisseurs spécialisés dans la finance climat, tels que des fonds d'impact ou des investisseurs institutionnels soucieux de la Nouvelle Économie du Climat.",
@@ -52,7 +60,12 @@ export default function WhatWeDo() {
               ].map((item, index) => (
                 <li key={index} className="flex items-start">
                   <span className="text-[#4cd4c0] mr-3 mt-1.5 flex-shrink-0">
-                    <svg width="8" height="8" viewBox="0 0 8 8" fill="currentColor">
+                    <svg
+                      width="8"
+                      height="8"
+                      viewBox="0 0 8 8"
+                      fill="currentColor"
+                    >
                       <circle cx="4" cy="4" r="4" />
                     </svg>
                   </span>
@@ -61,7 +74,7 @@ export default function WhatWeDo() {
               ))}
             </ul>
           </div>
-            
+
           {/* Image Column */}
           <div className="w-full h-full max-h-[600px] relative rounded-lg overflow-hidden">
             <Image
@@ -73,11 +86,8 @@ export default function WhatWeDo() {
               priority
             />
           </div>
-
-
         </div>
       </div>
     </section>
-  )
+  );
 }
-

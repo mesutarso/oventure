@@ -42,10 +42,10 @@ const config = {
     },
     colors: {
       primary: "#00B7E8",
-      secondary: "#21dfb7",
+      secondary: "#3aa935",
       tertiary: "#1E264D",
       yellow: "#FFD100",
-      blueDark: "#012f59",
+      blueDark: "#00246d",
       blueLight: "#0468b4",
       pink: "#F5167E",
       orange: "#DC6738",

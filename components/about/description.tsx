@@ -252,7 +252,7 @@ function Description() {
           </div>
           <div>
             <Image
-              src={"/images/about-hero.jpg"}
+              src={"/images/vision-decarbone.jpeg"}
               alt={"hero"}
               width={500}
               height={500}

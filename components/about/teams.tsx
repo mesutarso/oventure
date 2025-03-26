@@ -71,15 +71,15 @@ function Teams() {
                 <div className={'card   rounded-2xl  border-2 border-b-8 border-primary '}>
                     <div className="card-image min-h-[300px]  relative">
                         <Image
-                            src={'/teams/nyoka.jpg'}
+                            src={'/teams/betavers.jpeg'}
                             alt={'founders'}
                             fill
-                            className={'rounded-t-2xl object-cover grayscale'}
+                            className={'rounded-t-2xl'}
                         />
                     </div>
                     <div className="card-content p-5">
                         <h3>
-                            <strong className={'text-primary text-xl font-semibold mb-2'}>NYOKA BETTAVER Sarina Laïla</strong>
+                            <strong className={'text-primary text-xl font-semibold mb-2'}>BETTAVER Sarina Laïla</strong>
                         </h3>
                         <p className="role">
                             <strong className={'text-blueDark text-lg font-semibold'}>Coordonnatrice</strong>
@@ -87,28 +87,29 @@ function Teams() {
 
                     </div>
                 </div>
+
                 <div className={'card   rounded-2xl  border-2 border-b-8 border-primary '}>
-                    <div className="card-image min-h-[300px]  relative">
-                        {/* <Image
-                            src={'/teams/nyoka.jpg'}
+                    <div className="card-image min-h-[300px]  relative bg-blueDark rounded-t-2xl">
+                        <Image
+                            src={'/teams/bertin.png'}
                             alt={'founders'}
                             fill
-                            className={'rounded-t-2xl object-cover grayscale'}
-                        /> */}
+                            className={'rounded-t-2xl object-cover'}
+                        />
 
                     </div>
                     <div className="card-content p-5">
                         <h3>
-                            <strong className={'text-primary text-xl font-semibold mb-2'}>TSHIBAMBA Florance</strong>
+                            <strong className={'text-primary text-xl font-semibold mb-2'}>Bertin MBUYA KILABI </strong>
                         </h3>
                         <p className="role">
-                            <strong className={'text-blueDark text-lg font-semibold'}>Directrice Juridique</strong>
+                            <strong className={'text-blueDark text-lg font-semibold'}>Coordonateur Adjoint chargé de RP</strong>
                         </p>
 
                     </div>
                 </div>
                 <div className={'card   rounded-2xl  border-2 border-b-8 border-primary '}>
-                    <div className="card-image min-h-[300px]  relative">
+                    <div className="card-image min-h-[300px]  relative bg-blueDark rounded-t-2xl">
                         {/* <Image
                             src={'/teams/nyoka.jpg'}
                             alt={'founders'}
@@ -119,7 +120,7 @@ function Teams() {
                     </div>
                     <div className="card-content p-5">
                         <h3>
-                            <strong className={'text-primary text-xl font-semibold mb-2'}>BUYA Bertin </strong>
+                            <strong className={'text-primary text-xl font-semibold mb-2'}>Florence TSHIBAMBA</strong>
                         </h3>
                         <p className="role">
                             <strong className={'text-blueDark text-lg font-semibold'}>Directrice Juridique</strong>

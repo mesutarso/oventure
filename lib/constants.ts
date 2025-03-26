@@ -14,7 +14,6 @@ export const MENU: MenuItem[] = [
         label: "CONSEIL ET CONSULTANCE EN FINANCE CLIMAT",
         href: "/offres#ouventure-consulting",
       },
-
       {
         label: "DÉVELOPPEMENT ET GESTION DE PROJETS CLIMAT",
         href: "/offres#oventure-software",
@@ -36,16 +35,16 @@ export const MENU: MenuItem[] = [
     href: "/qui-sommes-nous",
   },
   {
-    label: "NOS PROJETS",
+    label: "FORMATION",
     href: "/nos-projets",
   },
+  // {
+  //   label: "NOS PROJETS",
+  //   href: "/nos-projets",
+  // },
   {
     label: "BLOG",
     href: "/blog",
-  },
-  {
-    label: "RECRUTEMENT",
-    href: "/recrutement",
   },
 
 ];
