@@ -15,7 +15,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Decarbonable",
+  title: "Decarbone RDC",
   description: "Plateforme innovante spécialisée dans la formation et consultances en finance climat",
 };
 
@@ -31,7 +31,7 @@ export default function RootLayout({
           <Header />
           {children}
           <Footer />
-          </body>
+        </body>
       </AosProvider>
 
     </html>
