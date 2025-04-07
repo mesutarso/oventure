@@ -5,7 +5,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "oventure.mechacktambwe.me",
+        hostname: "backend.decarbone.org",
       },
     ],
   },
