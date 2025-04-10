@@ -50,6 +50,6 @@ export const getPostBySlug = async (slug: string) => {
             ?.name,
         };
       })
-      .filter((item: any) => item.slug !== post?.slug),
+      .filter((item: any) => item.title !== post?.title),
   };
 };
