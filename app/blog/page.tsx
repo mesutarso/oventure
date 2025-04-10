@@ -1,6 +1,11 @@
 
 import { getAllPosts } from '@/actions/articles';
 import BlogCard from '@/components/blog/card';
+
+
+export const revalidate = 0;
+
+
 async function BlogPage() {
     const posts = await getAllPosts();
     return (
