@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
-import { Inter, IBM_Plex_Sans, Poppins } from "next/font/google";
+import { Poppins } from "next/font/google";
 import "./globals.css";
 import AosProvider from "@/providers/aos";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
+import MaintenanceMode from "@/components/maintenance";
 
 
-const inter = Inter({ subsets: ["latin"] });
 const poppins = Poppins({
   subsets: ['latin'],
   display: 'swap',
@@ -28,6 +28,10 @@ export default function RootLayout({
     <html lang="fr">
       <AosProvider>
         <body className={poppins.className}>
+
+          <div className="fixed inset-0 z-50 flex items-center justify-center bg-white">
+            <MaintenanceMode />
+          </div>
           <Header />
           {children}
           <Footer />
