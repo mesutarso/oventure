@@ -30,7 +30,7 @@ export default function RootLayout({
         <body className={poppins.className}>
 
           <div className="fixed inset-0 z-50 flex items-center justify-center bg-white">
-            <MaintenanceMode />
+
           </div>
           <Header />
           {children}
