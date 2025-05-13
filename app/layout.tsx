@@ -29,9 +29,7 @@ export default function RootLayout({
       <AosProvider>
         <body className={poppins.className}>
 
-          <div className="fixed inset-0 z-50 flex items-center justify-center bg-white">
 
-          </div>
           <Header />
           {children}
           <Footer />
