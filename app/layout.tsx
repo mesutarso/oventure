@@ -28,7 +28,10 @@ export default function RootLayout({
     <html lang="fr">
       <AosProvider>
         <body className={poppins.className}>
-          <MaintenanceMode />
+          <div className="absolute inset-0 overflow-hidden z-40">
+
+            <MaintenanceMode />
+          </div>
 
           <Header />
           {children}
