@@ -28,12 +28,13 @@ export default function RootLayout({
     <html lang="fr">
       <AosProvider>
         <body className={poppins.className}>
+
+
+          <Header />
           <div className="fixed inset-0 overflow-hidden z-50 bg-white ">
 
             <MaintenanceMode />
           </div>
-
-          <Header />
           {children}
           <Footer />
         </body>
