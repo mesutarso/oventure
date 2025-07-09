@@ -31,10 +31,10 @@ export default function RootLayout({
 
 
           <Header />
-          <div className="fixed inset-0 overflow-hidden z-50 bg-white ">
+          {/* <div className="fixed inset-0 overflow-hidden z-50 bg-white ">
 
             <MaintenanceMode />
-          </div>
+          </div> */}
           {children}
           <Footer />
         </body>
